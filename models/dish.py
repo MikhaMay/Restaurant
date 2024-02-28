@@ -10,6 +10,10 @@ class Dish(ABC):
     def info(self):
         return [self._name, self._text, self._price]
     
+    @abstractmethod
+    def type_info(self):
+        pass
+    
     def __hash__(self):     
         return hash(tuple(self.info()))
     
@@ -33,6 +37,9 @@ class Soup(Dish):
     def info(self):
         return super().info() + [self._mass]
     
+    def type_info(self):
+        return 'Soup'
+    
     def __str__(self):
         return f"{self._name}\n{self._text}\nweight: {self._mass}, price: {self._price}"
     
@@ -43,6 +50,9 @@ class Beverage(Dish):
     
     def info(self):
         return super().info() + [self._volume]
+    
+    def type_info(self):
+        return 'Beverage'
     
     def __str__(self):
         return f"{self._name}\n{self._text}\nvolume: {self._volume}, price: {self._price}"

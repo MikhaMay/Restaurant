@@ -19,13 +19,16 @@ bev2 = Beverage('Coffee', 'from Vanya', 0, 200)
 bev3 = Beverage('Cola', 'The Machine guns favorite drink', 95, 500)
 soup3 = Soup('Solyanka', 'with meat', 75, 250)
 bev4 = Beverage('Cumpot', 'for overprice', 25, 250)
-soup4 = Beverage('Doshirak', 'from Ashan', 30, 150)
-soup5 = Beverage('Lapsha with chiken', 'nraitsa', 65, 250)
+soup4 = Soup('Doshirak', 'from Ashan', 30, 150)
+soup5 = Soup('Lapsha with chiken', 'nraitsa', 65, 250)
 
 dishes_names = {}
 for d in soup1, soup2, soup3, soup4, soup5, bev1, bev2, bev3, bev4:
     dishes_names[d.get_name()] = d
     menu.add_dish(d)
+
+for _ in range(10):
+    menu.add_dish(Soup('soup'+str(_+6), 'some text', 5+_*10, 6+_*7))
 
 # menu.show_menu()
 

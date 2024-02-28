@@ -1,5 +1,6 @@
 from utils.drawer import Drawer
 from utils.logger import LogManager
+from collections import defaultdict
 
 
 class Menu:
@@ -11,14 +12,14 @@ class Menu:
         return cls._instance
     
     def __init__(self):
-        self._dishes = []
+        self._dishes = defaultdict(list)
     
     def add_dish(self, dish):
-        if dish in self._dishes:
+        if dish in self._dishes[dish.type_info()]:
             LogManager.log_message(f"{dish.get_name()} already in menu\n")
             return 
 
-        self._dishes.append(dish)
+        self._dishes[dish.type_info()].append(dish)
         LogManager.log_message(f"{dish.get_name()} was added into menu\n")
     
     def show_menu(self): 

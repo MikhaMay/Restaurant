@@ -16,7 +16,7 @@ class Order:
         self._summ = 0
 
     
-    def add_dish(self, dish, count):
+    def add_dish(self, dish, count=1):
         self._dishes[dish] = self._dishes.get(dish, 0) + count
         self._summ += dish.get_price() * count
         LogManager.log_message(f'into order {self.id} was added {count} {dish.get_name()} and order summ is {self._summ}\n')
