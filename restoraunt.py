@@ -37,21 +37,30 @@ class Beverage(Dish):
     
 class Order:
     def __init__(self):
+        LogManager.log('order {self} was created')
         self._dishes = {}
         self._summ = 0
     
     def add_dish(self, dish, count):
         self._dishes[dish] = self._dishes.get(dish, 0) + count
         self._summ += dish.get_price * count
+        LogManager().log(f'into order {self} was added {count} {dish.get_name()} and order summ is {self._summ}')
     
     def remove_dish(self, dish, count):
-        self._summ -= self._dishes[dish] * dish.get_price()
-        self._dishes[dish] = max(self._dishes.get(dish, 0) - count, 0)
-        self._summ += self._dishes[dish] * dish.get_price()
+        tmp = self._dishes.get(dish, 0)
 
-        if self._dishes[dish] == 0:
-            del self._dishes[dish]
-    
+        if tmp <= count:
+            self._summ -= tmp * dish.get_price()
+            if tmp < count:
+                LogManager().log(f'In order {self} was only {tmp} {dish.get_name()}')
+            LogManager().log(f'All {dish.get_name()} was removed! New order summ is {self._summ}')
+
+            if dish in self._dishes:
+                del self._dishes[dish]
+        else:
+            self._summ -= count * dish.get_price()
+            LogManager().log(f'In order now {tmp-count} {dish.get_name()}, new order summ is {self._summ}')       
+
     def sum_cost(self):
         return self._summ
         
@@ -69,13 +78,17 @@ class Menu:
     def add_dish(self, dish):
         for d in self._dishes:
             if d.info() == dish.info():
+                LogManager().log(f"{dish.name} already in menu")
                 return 
 
         self._dishes.append(dish)
+        LogManager().log(f"{dish.name} was added into menu")
     
     def show_menu(self): #или лучше в рисователя передавать меню и рисовать
+        LogManager().log("starting drawing menu...")
         Drawer(self._dishes).draw()
-
+        LogManager().log("ending drawing menu")
+        
 class Drawer:
     _instance = None
 
