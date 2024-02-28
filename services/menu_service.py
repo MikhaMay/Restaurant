@@ -25,3 +25,6 @@ class Menu:
         LogManager.log_message("starting drawing menu...\n")
         Drawer(self._dishes).draw()
         LogManager.log_message("ending drawing menu\n")
+    
+    def items(self):
+        return self._dishes

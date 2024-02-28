@@ -33,6 +33,9 @@ class Soup(Dish):
     def info(self):
         return super().info() + [self._mass]
     
+    def __str__(self):
+        return f"{self._name}\n{self._text}\nweight: {self._mass}, price: {self._price}"
+    
 class Beverage(Dish):
     def __init__(self, name, text, price, volume):
         super().__init__(name, text, price)
@@ -40,4 +43,7 @@ class Beverage(Dish):
     
     def info(self):
         return super().info() + [self._volume]
+    
+    def __str__(self):
+        return f"{self._name}\n{self._text}\nvolume: {self._volume}, price: {self._price}"
 
