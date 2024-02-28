@@ -1,7 +1,7 @@
 class Drawer:
     _instance = None
 
-    def __new__(cls, data):
+    def __new__(cls, *args, **kwargs):
         if cls._instance == None:
             cls._instance = super().__new__(cls)
         return cls._instance 
@@ -11,4 +11,4 @@ class Drawer:
 
     def draw(self):
         for c in self._data:
-            print(c, sep='\n')
+            print('_'*10, c, sep='\n')

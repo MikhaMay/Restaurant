@@ -24,3 +24,575 @@ __________start__________
 borsch was added into menu
 starting drawing menu...
 ending drawing menu
+__________start__________
+borsch was added into menu
+starting drawing menu...
+ending drawing menu
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order <services.order_service.Order object at 0x000001F96B7BF8B0> was created
+into order <services.order_service.Order object at 0x000001F96B7BF8B0> was added 2 borsch and order summ is 130
+into order <services.order_service.Order object at 0x000001F96B7BF8B0> was added 1 Solyanka and order summ is 205
+into order <services.order_service.Order object at 0x000001F96B7BF8B0> was added 2 Cola and order summ is 395
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+starting drawing order 0...
+ending drawing order 0
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+starting drawing order 0...
+ending drawing order 0
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+starting drawing order 0...
+ending drawing order 0
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Solyanka already in menu
+starting drawing menu...
+ending drawing menu
+order 0 was created
+into order 0 was added 2 borsch and order summ is 130
+into order 0 was added 1 Solyanka and order summ is 205
+into order 0 was added 2 Cola and order summ is 395
+In order now 1 borsch, new order summ is 330
+All Solyanka was removed! New order summ is 255
+In order 0 was only 2 Cola
+All Cola was removed! New order summ is 65
+In order 0 was only 0 Coffee
+All Coffee was removed! New order summ is 65
+order 1 was created
+starting drawing order 1...
+ending drawing order 1
+into order 1 was added 2 borsch and order summ is 130
+into order 1 was added 2 Solyanka and order summ is 280
+into order 1 was added 2 Solyanka and order summ is 430
+starting drawing order 1...
+ending drawing order 1

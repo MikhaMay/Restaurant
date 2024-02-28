@@ -16,6 +16,9 @@ class Dish(ABC):
     def __str__(self):
         return '\n'.join(str(i) for i in self.info())
     
+    def __eq__(self, other_dish):
+        return self.info() == other_dish.info()
+    
     def get_price(self):
         return self._price
     
