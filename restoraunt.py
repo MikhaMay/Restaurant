@@ -13,6 +13,9 @@ class Dish(ABC):
     def __hash__(self):     
         return hash(tuple(self.info()))
     
+    def __str__(self):
+        return '\n'.join(self.info())
+    
     def get_price(self):
         return self._price
     
@@ -78,13 +81,13 @@ class Menu:
     def add_dish(self, dish):
         for d in self._dishes:
             if d.info() == dish.info():
-                LogManager().log(f"{dish.name} already in menu")
+                LogManager().log(f"{dish.get_name()} already in menu")
                 return 
 
         self._dishes.append(dish)
-        LogManager().log(f"{dish.name} was added into menu")
+        LogManager().log(f"{dish.get_name()} was added into menu")
     
-    def show_menu(self): #или лучше в рисователя передавать меню и рисовать
+    def show_menu(self): 
         LogManager().log("starting drawing menu...")
         Drawer(self._dishes).draw()
         LogManager().log("ending drawing menu")
@@ -101,7 +104,8 @@ class Drawer:
         self._data = data
 
     def draw(self):
-        pass
+        for c in self._data:
+            print(c, sep='\n')
 
 class Logger(ABC):
     @abstractmethod
@@ -136,3 +140,5 @@ class LogManager:
         if not self._logger:
             return
         self._logger.log(string)
+
+LogManager().set_logger(FileLogger('log_file.txt'))
