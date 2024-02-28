@@ -14,7 +14,7 @@ class Dish(ABC):
         return hash(tuple(self.info()))
     
     def __str__(self):
-        return '\n'.join(self.info())
+        return '\n'.join(str(i) for i in self.info())
     
     def get_price(self):
         return self._price

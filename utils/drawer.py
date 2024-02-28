@@ -1,7 +1,7 @@
 class Drawer:
     _instance = None
 
-    def __new__(cls):
+    def __new__(cls, data):
         if cls._instance == None:
             cls._instance = super().__new__(cls)
         return cls._instance 
