@@ -6,6 +6,7 @@ class MenuApp(QWidget):
         super().__init__()
         self.menu_items = menu_items
         self.order = Order()
+        self.isOrderView = False
         self.initUI()
 
     def initUI(self):
@@ -27,7 +28,7 @@ class MenuApp(QWidget):
         self.scrollArea.setWidget(self.menuContainer)
 
         self.orderButton = QPushButton('Перейти к заказу')
-        self.orderButton.clicked.connect(self.showOrderView)
+        self.orderButton.clicked.connect(self.toggleView)
         self.costLabel = QLabel('Стоимость заказа: 0')
 
         self.menuLayout.addWidget(self.scrollArea)
@@ -43,6 +44,12 @@ class MenuApp(QWidget):
         self.setWindowTitle('Меню ресторана')
         self.resize(800, 500)
         self.show()
+
+    def toggleView(self):
+        if self.isOrderView:
+            self.backToMenu()
+        else:
+            self.showOrderView()
 
     def recreateScrollArea(self):
         #Удаляет и создает заново scrollArea и menuContainer.
@@ -77,6 +84,12 @@ class MenuApp(QWidget):
         self.order.add_dish(dish)
         self.costLabel.setText(f'Стоимость заказа: {self.order.get_total_cost()}')
 
+    def setLayoutVisible(self, layout, visible):
+        for i in range(layout.count()): 
+            widget = layout.itemAt(i).widget()
+            if widget is not None:
+                widget.setVisible(visible)
+
     def showOrderView(self):
         self.recreateScrollArea()  # Пересоздаем scrollArea и menuContainer
         for dish, count in self.order.items().items():
@@ -93,10 +106,13 @@ class MenuApp(QWidget):
             dishLayout.addWidget(removeButton)
             self.menuContainerLayout.addLayout(dishLayout)
 
-        backButton = QPushButton('Вернуться к меню')
         self.costLabel.setText(f'Стоимость заказа: {self.order.get_total_cost()}')
-        backButton.clicked.connect(self.backToMenu)
-        self.menuContainerLayout.addWidget(backButton)
+        
+        self.orderButton.setText('Вернуться к меню')
+        self.isOrderView = True
+
+        # Скрываем кнопки разделов блюд
+        self.setLayoutVisible(self.typeLayout, False)
 
     def changeOrder(self, dish, change):
         # Логика изменения количества блюда в заказе
@@ -108,6 +124,11 @@ class MenuApp(QWidget):
 
     def backToMenu(self):
         self.recreateScrollArea()
-        # Вернуться к отображению последнего выбранного типа блюда
         self.showDishesOfType()
 
+        # Обновляем текст и действие кнопки для перехода к заказу
+        self.orderButton.setText('Перейти к заказу')
+        self.isOrderView = False
+
+        # Показываем кнопки разделов блюд
+        self.setLayoutVisible(self.typeLayout, True)

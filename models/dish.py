@@ -56,4 +56,33 @@ class Beverage(Dish):
     
     def __str__(self):
         return f"{self._name}\n{self._text}\nvolume: {self._volume}, price: {self._price}"
+    
+class Snack(Dish):
+    def __init__(self, name, text, price, mass):
+        super().__init__(name, text, price)
+        self._mass = mass
+    
+    def info(self):
+        return super().info() + [self._mass]
+    
+    def type_info(self):
+        return 'Snack'
+
+    def __str__(self):
+        return f"{self._name}\n{self._text}\nweight: {self._mass}, price: {self._price}"
+
+class MainCourse(Dish):
+    def __init__(self, name, text, price, mass):
+        super().__init__(name, text, price)
+        self._mass = mass
+    
+    def info(self):
+        return super().info() + [self._mass]
+    
+    def type_info(self):
+        return 'MainCourse'
+
+    def __str__(self):
+        return f"{self._name}\n{self._text}\nweight: {self._mass}, price: {self._price}"
+
 
