@@ -16,25 +16,25 @@ class Order:
         self._summ = 0
 
     
-    def add_dish(self, dish, count=1):
-        self._dishes[dish] = self._dishes.get(dish, 0) + count
-        self._summ += dish.get_price() * count
-        LogManager.log_message(f'into order {self.id} was added {count} {dish.get_name()} and order summ is {self._summ}\n')
+    def add_dish(self, dish):
+        self._dishes[dish] = self._dishes.get(dish, 0) + 1
+        self._summ += dish.get_price()
+        LogManager.log_message(f'into order {self.id} was added {dish.get_name()}. Order summ is {self._summ}\n')
     
-    def remove_dish(self, dish, count):
-        tmp = self._dishes.get(dish, 0)
-
-        if tmp <= count:
-            self._summ -= tmp * dish.get_price()
-            if tmp < count:
-                LogManager.log_message(f'In order {self.id} was only {tmp} {dish.get_name()}\n')
-            LogManager.log_message(f'All {dish.get_name()} was removed! New order summ is {self._summ}\n')
-
-            if dish in self._dishes:
-                del self._dishes[dish]
+    def remove_dish(self, dish):
+        if dish not in self._dishes:
+            LogManager.log_message(f'{dish.get_name()} not in order {self.id}! Order summ is {self._summ}\n')
+        elif self._dishes[dish] == 0:
+            LogManager.log_message(f'Count of {dish.get_name()} in order {self.id} is 0! Order summ is {self._summ}\n')
+            del self._dishes[dish]
+        elif self._dishes[dish] == 1:
+            del self._dishes[dish]
+            self._summ -= dish.get_price()
+            LogManager.log_message(f'All {dish.get_name()} from order {self.id} was removed! New order summ is {self._summ}\n')
         else:
-            self._summ -= count * dish.get_price()
-            LogManager.log_message(f'In order now {tmp-count} {dish.get_name()}, new order summ is {self._summ}\n')       
+            self._dishes[dish] -= 1
+            self._summ -= dish.get_price()
+            LogManager.log_message(f'In order {self.id} now {self._dishes[dish]} {dish.get_name()}, new order summ is {self._summ}\n') 
 
     def get_total_cost(self):
         return self._summ
@@ -43,3 +43,6 @@ class Order:
         LogManager.log_message(f"starting drawing order {self.id}...\n")
         Drawer([(d.get_name(), count) for d, count in self._dishes.items()]).draw()
         LogManager.log_message(f"ending drawing order {self.id}\n")
+
+    def items(self):
+        return self._dishes

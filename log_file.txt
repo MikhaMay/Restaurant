@@ -865,3 +865,677 @@ soup12 was added into menu
 soup13 was added into menu
 soup14 was added into menu
 soup15 was added into menu
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added 1 Solyanka and order summ is 75
+into order 0 was added 1 Doshirak and order summ is 105
+into order 0 was added 1 Doshirak and order summ is 135
+into order 0 was added 1 Doshirak and order summ is 165
+into order 0 was added 1 Doshirak and order summ is 195
+into order 0 was added 1 Cola and order summ is 290
+into order 0 was added 1 Coffee and order summ is 290
+into order 0 was added 1 soup14 and order summ is 375
+into order 0 was added 1 soup12 and order summ is 440
+into order 0 was added 1 soup8 and order summ is 465
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added 1 Solyanka and order summ is 75
+into order 0 was added 1 Lapsha with chiken and order summ is 140
+into order 0 was added 1 soup6 and order summ is 145
+into order 0 was added 1 borsch and order summ is 210
+into order 0 was added 1 soup14 and order summ is 295
+into order 0 was added 1 soup13 and order summ is 370
+into order 0 was added 1 Cola and order summ is 465
+into order 0 was added 1 Solyanka and order summ is 540
+into order 0 was added 1 Solyanka and order summ is 615
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added 1 Doshirak and order summ is 30
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added 1 Doshirak and order summ is 30
+into order 0 was added 1 soup7 and order summ is 45
+into order 0 was added 1 soup10 and order summ is 90
+into order 0 was added 1 soup12 and order summ is 155
+into order 0 was added 1 soup15 and order summ is 250
+into order 0 was added 1 borsch and order summ is 315
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added 1 soup13 and order summ is 75
+into order 0 was added 1 soup11 and order summ is 130
+into order 0 was added 1 soup8 and order summ is 155
+into order 0 was added 1 Cumpot and order summ is 180
+into order 0 was added 1 soup8 and order summ is 205
+into order 0 was added 1 Cumpot and order summ is 230
+into order 0 was added 1 Cumpot and order summ is 255
+into order 0 was added 1 Cumpot and order summ is 280
+into order 0 was added 1 soup8 and order summ is 305
+into order 0 was added 1 Cumpot and order summ is 330
+into order 0 was added 1 soup8 and order summ is 355
+into order 0 was added 1 soup10 and order summ is 400
+into order 0 was added 1 soup15 and order summ is 495
+into order 0 was added 1 soup15 and order summ is 590
+into order 0 was added 1 borsch and order summ is 655
+into order 0 was added 1 borsch and order summ is 720
+All soup10 was removed! New order summ is 675
+into order 0 was added 1 soup15 and order summ is 770
+into order 0 was added 1 soup10 and order summ is 815
+In order now 2 soup15, new order summ is 720
+In order now 2 soup15, new order summ is 625
+In order now 1 borsch, new order summ is 560
+In order now 1 borsch, new order summ is 495
+All soup10 was removed! New order summ is 450
+into order 0 was added 1 Cumpot and order summ is 475
+In order now 1 borsch, new order summ is 410
+In order now 1 borsch, new order summ is 345
+In order now 1 borsch, new order summ is 280
+In order now 1 borsch, new order summ is 215
+In order now 1 borsch, new order summ is 150
+In order now 1 borsch, new order summ is 85
+In order now 1 borsch, new order summ is 20
+In order now 1 borsch, new order summ is -45
+In order now 1 borsch, new order summ is -110
+In order now 1 borsch, new order summ is -175
+In order now 1 borsch, new order summ is -240
+In order now 1 borsch, new order summ is -305
+In order now 1 borsch, new order summ is -370
+In order now 1 borsch, new order summ is -435
+In order now 1 borsch, new order summ is -500
+In order now 1 borsch, new order summ is -565
+In order now 1 borsch, new order summ is -630
+In order now 1 borsch, new order summ is -695
+In order now 1 borsch, new order summ is -760
+In order now 1 borsch, new order summ is -825
+In order 0 was only 0 soup10
+All soup10 was removed! New order summ is -825
+In order now 5 Cumpot, new order summ is -850
+In order now 5 Cumpot, new order summ is -875
+In order now 2 soup15, new order summ is -970
+into order 0 was added 1 Cola and order summ is -875
+into order 0 was added 1 Cola and order summ is -780
+into order 0 was added 1 Cola and order summ is -685
+into order 0 was added 1 Cola and order summ is -590
+into order 0 was added 1 soup6 and order summ is -585
+into order 0 was added 1 soup6 and order summ is -580
+into order 0 was added 1 Hot water and order summ is -580
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added 1 soup7 and order summ is 15
+into order 0 was added 1 Doshirak and order summ is 45
+into order 0 was added 1 soup9 and order summ is 80
+into order 0 was added 1 soup13 and order summ is 155
+into order 0 was added 1 soup13 and order summ is 230
+into order 0 was added 1 soup14 and order summ is 315
+into order 0 was added 1 soup13 and order summ is 390
+into order 0 was added 1 soup12 and order summ is 455
+into order 0 was added 1 soup11 and order summ is 510
+into order 0 was added 1 soup10 and order summ is 555
+into order 0 was added 1 soup9 and order summ is 590
+into order 0 was added 1 Lapsha with chiken and order summ is 655
+into order 0 was added 1 soup13 and order summ is 730
+In order now 3 soup13, new order summ is 655
+In order now 3 soup13, new order summ is 580
+In order now 3 soup13, new order summ is 505
+All soup14 was removed! New order summ is 420
+All soup12 was removed! New order summ is 355
+All soup11 was removed! New order summ is 300
+All soup10 was removed! New order summ is 255
+In order now 3 soup13, new order summ is 180
+All soup7 was removed! New order summ is 165
+In order 0 was only 0 soup7
+All soup7 was removed! New order summ is 165
+into order 0 was added 1 borsch and order summ is 230
+into order 0 was added 1 Solyanka and order summ is 305
+into order 0 was added 1 Solyanka and order summ is 380
+All Doshirak was removed! New order summ is 350
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added 1 soup10 and order summ is 45
+into order 0 was added 1 soup6 and order summ is 50
+into order 0 was added 1 soup7 and order summ is 65
+into order 0 was added 1 soup11 and order summ is 120
+into order 0 was added 1 soup14 and order summ is 205
+into order 0 was added 1 Coffee and order summ is 205
+into order 0 was added 1 Coffee and order summ is 205
+into order 0 was added 1 Coffee and order summ is 205
+into order 0 was added 1 Coffee and order summ is 205
+into order 0 was added 1 borsch and order summ is 270
+into order 0 was added 1 soup6 and order summ is 275
+into order 0 was added 1 soup8 and order summ is 300
+into order 0 was added 1 Cola and order summ is 395
+into order 0 was added 1 Cola and order summ is 490
+into order 0 was added 1 Cola and order summ is 585
+into order 0 was added 1 Cola and order summ is 680
+into order 0 was added 1 Cola and order summ is 775
+into order 0 was added 1 Cola and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Coffee and order summ is 870
+into order 0 was added 1 Hot water and order summ is 870
+into order 0 was added 1 Hot water and order summ is 870
+into order 0 was added 1 Cumpot and order summ is 895
+into order 0 was added 1 Cola and order summ is 990
+into order 0 was added 1 Cola and order summ is 1085
+into order 0 was added 1 Cola and order summ is 1180
+into order 0 was added 1 Cumpot and order summ is 1205
+into order 0 was added 1 Doshirak and order summ is 1235
+into order 0 was added 1 borsch and order summ is 1300
+into order 0 was added 1 Solyanka and order summ is 1375
+into order 0 was added 1 soup9 and order summ is 1410
+into order 0 was added 1 soup13 and order summ is 1485
+into order 0 was added 1 Hot water and order summ is 1485
+into order 0 was added 1 Hot water and order summ is 1485
+into order 0 was added 1 Hot water and order summ is 1485
+into order 0 was added 1 Hot water and order summ is 1485
+into order 0 was added 1 Hot water and order summ is 1485
+into order 0 was added 1 Coffee and order summ is 1485
+into order 0 was added 1 Coffee and order summ is 1485
+into order 0 was added 1 Coffee and order summ is 1485
+into order 0 was added 1 Cola and order summ is 1580
+into order 0 was added 1 Cumpot and order summ is 1605
+into order 0 was added 1 Cumpot and order summ is 1630
+into order 0 was added 1 Coffee and order summ is 1630
+In order now 18 Coffee, new order summ is 1630
+In order now 18 Coffee, new order summ is 1630
+In order now 18 Coffee, new order summ is 1630
+All soup14 was removed! New order summ is 1545
+All soup10 was removed! New order summ is 1500
+In order now 9 Cola, new order summ is 1405
+In order now 1 soup6, new order summ is 1400
+In order now 1 soup6, new order summ is 1395
+In order now 1 soup6, new order summ is 1390
+In order now 1 soup6, new order summ is 1385
+In order now 1 soup6, new order summ is 1380
+In order now 1 soup6, new order summ is 1375
+In order now 1 soup6, new order summ is 1370
+In order now 1 soup6, new order summ is 1365
+All soup7 was removed! New order summ is 1350
+All soup8 was removed! New order summ is 1325
+All Doshirak was removed! New order summ is 1295
+In order now 1 borsch, new order summ is 1230
+In order now 1 borsch, new order summ is 1165
+In order now 1 borsch, new order summ is 1100
+In order now 1 borsch, new order summ is 1035
+In order now 1 borsch, new order summ is 970
+In order now 1 borsch, new order summ is 905
+In order now 6 Hot water, new order summ is 905
+In order now 6 Hot water, new order summ is 905
+In order now 6 Hot water, new order summ is 905
+In order now 6 Hot water, new order summ is 905
+In order now 6 Hot water, new order summ is 905
+In order now 6 Hot water, new order summ is 905
+In order now 6 Hot water, new order summ is 905
+In order now 6 Hot water, new order summ is 905
+In order now 6 Hot water, new order summ is 905
+All soup9 was removed! New order summ is 870
+All soup13 was removed! New order summ is 795
+All Solyanka was removed! New order summ is 720
+In order now 3 Cumpot, new order summ is 695
+All soup11 was removed! New order summ is 640
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added 1 Doshirak and order summ is 30
+into order 0 was added 1 soup6 and order summ is 35
+into order 0 was added 1 Cola and order summ is 130
+into order 0 was added 1 Hot water and order summ is 130
+All Cola was removed! New order summ is 35
+into order 0 was added 1 soup13 and order summ is 110
+into order 0 was added 1 soup14 and order summ is 195
+All Hot water was removed! New order summ is 195
+All soup14 was removed! New order summ is 110
+All Doshirak was removed! New order summ is 80
+All soup6 was removed! New order summ is 75
+All soup13 was removed! New order summ is 0
+into order 0 was added 1 Lapsha with chiken and order summ is 65
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added 1 Lapsha with chiken and order summ is 65
+into order 0 was added 1 soup8 and order summ is 90
+into order 0 was added 1 soup8 and order summ is 115
+into order 0 was added 1 soup8 and order summ is 140
+into order 0 was added 1 soup10 and order summ is 185
+into order 0 was added 1 soup11 and order summ is 240
+In order now 2 soup8, new order summ is 215
+into order 0 was added 1 soup6 and order summ is 220
+In order now 2 soup8, new order summ is 195
+In order now 2 soup8, new order summ is 170
+into order 0 was added 1 soup7 and order summ is 185
+In order now 2 soup8, new order summ is 160
+In order now 2 soup8, new order summ is 135
+into order 0 was added 1 borsch and order summ is 200
+In order now 2 soup8, new order summ is 175
+In order now 2 soup8, new order summ is 150
+In order now 2 soup8, new order summ is 125
+In order now 2 soup8, new order summ is 100
+In order now 2 soup8, new order summ is 75
+In order now 2 soup8, new order summ is 50
+In order now 2 soup8, new order summ is 25
+In order now 2 soup8, new order summ is 0
+In order now 2 soup8, new order summ is -25
+In order now 2 soup8, new order summ is -50
+In order now 2 soup8, new order summ is -75
+into order 0 was added 1 soup7 and order summ is -60
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added Solyanka. Order summ is 75
+into order 0 was added soup6. Order summ is 80
+into order 0 was added soup10. Order summ is 125
+into order 0 was added Cola. Order summ is 220
+into order 0 was added soup6. Order summ is 225
+In order 0 now 1 soup6, new order summ is 220
+All Solyanka from order 0 was removed! New order summ is 145
+into order 0 was added soup10. Order summ is 190
+into order 0 was added soup10. Order summ is 235
+into order 0 was added Cola. Order summ is 330
+into order 0 was added soup6. Order summ is 335
+into order 0 was added soup6. Order summ is 340
+into order 0 was added soup6. Order summ is 345
+into order 0 was added soup6. Order summ is 350
+into order 0 was added soup6. Order summ is 355
+into order 0 was added Coffee. Order summ is 355
+into order 0 was added soup6. Order summ is 360
+In order 0 now 6 soup6, new order summ is 355
+In order 0 now 5 soup6, new order summ is 350
+In order 0 now 4 soup6, new order summ is 345
+In order 0 now 3 soup6, new order summ is 340
+In order 0 now 2 soup6, new order summ is 335
+In order 0 now 1 soup6, new order summ is 330
+All soup6 from order 0 was removed! New order summ is 325
+All Coffee from order 0 was removed! New order summ is 325
+into order 0 was added Cola. Order summ is 420
+into order 0 was added Cola. Order summ is 515
+into order 0 was added Cola. Order summ is 610
+into order 0 was added Cola. Order summ is 705
+into order 0 was added Cola. Order summ is 800
+__________start__________
+borsch was added into menu
+Solyanka was added into menu
+Solyanka already in menu
+Doshirak was added into menu
+Lapsha with chiken was added into menu
+Hot water was added into menu
+Coffee was added into menu
+Cola was added into menu
+Cumpot was added into menu
+soup6 was added into menu
+soup7 was added into menu
+soup8 was added into menu
+soup9 was added into menu
+soup10 was added into menu
+soup11 was added into menu
+soup12 was added into menu
+soup13 was added into menu
+soup14 was added into menu
+soup15 was added into menu
+order 0 was created
+into order 0 was added Doshirak. Order summ is 30
+into order 0 was added soup9. Order summ is 65
+into order 0 was added soup9. Order summ is 100
+into order 0 was added soup9. Order summ is 135
+into order 0 was added soup14. Order summ is 220
+into order 0 was added soup14. Order summ is 305
+into order 0 was added soup14. Order summ is 390
+into order 0 was added soup14. Order summ is 475
+into order 0 was added Cola. Order summ is 570
+into order 0 was added Hot water. Order summ is 570
+into order 0 was added Hot water. Order summ is 570
+into order 0 was added Hot water. Order summ is 570
+In order 0 now 2 Hot water, new order summ is 570
+In order 0 now 3 soup14, new order summ is 485
+All Doshirak from order 0 was removed! New order summ is 455
+All Cola from order 0 was removed! New order summ is 360
+In order 0 now 1 Hot water, new order summ is 360
+All Hot water from order 0 was removed! New order summ is 360
+into order 0 was added soup14. Order summ is 445
+into order 0 was added soup14. Order summ is 530
+into order 0 was added soup14. Order summ is 615
+into order 0 was added soup14. Order summ is 700
+into order 0 was added soup14. Order summ is 785
+In order 0 now 7 soup14, new order summ is 700
+In order 0 now 6 soup14, new order summ is 615
+In order 0 now 5 soup14, new order summ is 530
+In order 0 now 4 soup14, new order summ is 445
+In order 0 now 3 soup14, new order summ is 360
+In order 0 now 2 soup14, new order summ is 275
+In order 0 now 1 soup14, new order summ is 190
+All soup14 from order 0 was removed! New order summ is 105
+into order 0 was added soup9. Order summ is 140
+into order 0 was added soup9. Order summ is 175
+into order 0 was added soup9. Order summ is 210
+into order 0 was added soup9. Order summ is 245
+into order 0 was added soup9. Order summ is 280
+In order 0 now 7 soup9, new order summ is 245
+In order 0 now 6 soup9, new order summ is 210
+In order 0 now 5 soup9, new order summ is 175
+In order 0 now 4 soup9, new order summ is 140
+In order 0 now 3 soup9, new order summ is 105
+In order 0 now 2 soup9, new order summ is 70
+In order 0 now 1 soup9, new order summ is 35
+All soup9 from order 0 was removed! New order summ is 0
+into order 0 was added Doshirak. Order summ is 30
+into order 0 was added soup6. Order summ is 35
+into order 0 was added soup9. Order summ is 70

@@ -1,93 +1,113 @@
-import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QGridLayout, QHBoxLayout
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QLabel, QGridLayout, QHBoxLayout, QScrollArea, QWidget, QSizePolicy
+from services.order_service import Order
 
 class MenuApp(QWidget):
     def __init__(self, menu_items):
         super().__init__()
-        self.menu_items = menu_items  # Словарь типов блюд
-        self.current_type = None
-        self.current_page = 0
-        self.items_per_page = 5
-        self.order_cost = 0  # Стоимость заказа
+        self.menu_items = menu_items
+        self.order = Order()
         self.initUI()
 
     def initUI(self):
-        self.mainLayout = QHBoxLayout()  # Основной горизонтальный лейаут
-        self.typeLayout = QVBoxLayout()  # Лейаут для кнопок типов блюд
-        self.menuLayout = QVBoxLayout()  # Лейаут для отображения меню и кнопок навигации
+        self.mainLayout = QHBoxLayout()
+        self.typeLayout = QVBoxLayout()
+        self.menuLayout = QVBoxLayout()
 
-        # Создаем кнопки для типов блюд
         for dish_type in self.menu_items.keys():
             btn = QPushButton(dish_type.capitalize())
             btn.clicked.connect(lambda checked, t=dish_type: self.showDishesOfType(t))
             self.typeLayout.addWidget(btn)
 
-        self.grid = QGridLayout()
-        self.menuLayout.addLayout(self.grid)
-        
-        # Кнопки для навигации по страницам
-        self.prevPageButton = QPushButton('Предыдущая страница')
-        self.nextPageButton = QPushButton('Следующая страница')
-        self.prevPageButton.clicked.connect(self.prevPage)
-        self.nextPageButton.clicked.connect(self.nextPage)
-        self.navLayout = QHBoxLayout()
-        self.navLayout.addWidget(self.prevPageButton)
-        self.navLayout.addWidget(self.nextPageButton)
-        self.menuLayout.addLayout(self.navLayout)
+        self.menuContainer = QWidget()  # Контейнер для QScrollArea
+        self.menuContainerLayout = QVBoxLayout()
+        self.menuContainer.setLayout(self.menuContainerLayout)
+
+        self.scrollArea = QScrollArea(self)  # ScrollArea для меню
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setWidget(self.menuContainer)
 
         self.orderButton = QPushButton('Перейти к заказу')
+        self.orderButton.clicked.connect(self.showOrderView)
         self.costLabel = QLabel('Стоимость заказа: 0')
+
+        self.menuLayout.addWidget(self.scrollArea)
         self.menuLayout.addWidget(self.orderButton)
         self.menuLayout.addWidget(self.costLabel)
 
         self.mainLayout.addLayout(self.typeLayout)
         self.mainLayout.addLayout(self.menuLayout)
 
+        self.showDishesOfType()
+
         self.setLayout(self.mainLayout)
         self.setWindowTitle('Меню ресторана')
         self.resize(800, 500)
         self.show()
 
-    def showDishesOfType(self, dish_type):
-        self.current_type = dish_type
-        self.current_page = 0
-        self.updateMenu()
+    def recreateScrollArea(self):
+        #Удаляет и создает заново scrollArea и menuContainer.
+        if hasattr(self, 'scrollArea'):  # Проверяем, существует ли scrollArea
+            self.scrollArea.deleteLater()  # Удаляем существующий scrollArea
+        self.menuContainer = QWidget()  # Создаем новый контейнер для элементов
+        self.menuContainerLayout = QVBoxLayout(self.menuContainer)
+        self.scrollArea = QScrollArea(self)  # Создаем новый scrollArea
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setWidget(self.menuContainer)
+        self.menuLayout.insertWidget(0, self.scrollArea)  # Добавляем scrollArea на первое место в layout
 
-    def updateMenu(self):
-        # Очистка текущих элементов меню
-        for i in reversed(range(self.grid.count())): 
-            self.grid.itemAt(i).widget().setParent(None)
-        
-        if self.current_type not in self.menu_items:
-            return
 
-        dishes = self.menu_items[self.current_type]
-        start = self.current_page * self.items_per_page
-        end = min(start + self.items_per_page, len(dishes))
+    def showDishesOfType(self, dish_type=None):
+        if dish_type == None:
+            dish_type = list(self.menu_items.keys())[0]
 
-        for i, dish in enumerate(dishes[start:end], start=1):
+        self.recreateScrollArea()  # Пересоздаем scrollArea и menuContainer
+
+        dishes = self.menu_items[dish_type]
+        for dish in dishes:
             label = QLabel(str(dish))
             addButton = QPushButton('Добавить в заказ')
-            # Здесь будет подключена логика добавления в заказ
             addButton.clicked.connect(lambda checked, d=dish: self.addToOrder(d))
-            self.grid.addWidget(label, i, 0)
-            self.grid.addWidget(addButton, i, 1)
-
-    def nextPage(self):
-        if (self.current_page + 1) * self.items_per_page < len(self.menu_items[self.current_type]):
-            self.current_page += 1
-            self.updateMenu()
-
-    def prevPage(self):
-        if self.current_page > 0:
-            self.current_page -= 1
-            self.updateMenu()
+            dishLayout = QHBoxLayout()
+            dishLayout.addWidget(label)
+            dishLayout.addWidget(addButton)
+            self.menuContainerLayout.addLayout(dishLayout)
 
     def addToOrder(self, dish):
-        # Здесь будет реализована логика добавления блюда в заказ
-        print(f"Добавлено в заказ: {dish.info()[0]}")
-        # Обновление стоимости заказа и т.д.
-        # self.order_cost += ...
-        # self.costLabel.setText(f'Стоимость заказа: {self.order_cost}')
+        # Логика добавления блюда в заказ
+        self.order.add_dish(dish)
+        self.costLabel.setText(f'Стоимость заказа: {self.order.get_total_cost()}')
 
+    def showOrderView(self):
+        self.recreateScrollArea()  # Пересоздаем scrollArea и menuContainer
+        for dish, count in self.order.items().items():
+            dishLayout = QHBoxLayout()
+            labeldish = QLabel(str(dish))
+            labelcount = QLabel(str(count))
+            addButton = QPushButton('+')
+            removeButton = QPushButton('-')
+            addButton.clicked.connect(lambda checked, d=dish: self.changeOrder(d, 1))
+            removeButton.clicked.connect(lambda checked, d=dish: self.changeOrder(d, -1))
+            dishLayout.addWidget(labeldish)
+            dishLayout.addWidget(labelcount)
+            dishLayout.addWidget(addButton)
+            dishLayout.addWidget(removeButton)
+            self.menuContainerLayout.addLayout(dishLayout)
+
+        backButton = QPushButton('Вернуться к меню')
+        self.costLabel.setText(f'Стоимость заказа: {self.order.get_total_cost()}')
+        backButton.clicked.connect(self.backToMenu)
+        self.menuContainerLayout.addWidget(backButton)
+
+    def changeOrder(self, dish, change):
+        # Логика изменения количества блюда в заказе
+        if change > 0:
+            self.order.add_dish(dish)
+        else:
+            self.order.remove_dish(dish)
+        self.showOrderView()
+
+    def backToMenu(self):
+        self.recreateScrollArea()
+        # Вернуться к отображению последнего выбранного типа блюда
+        self.showDishesOfType()
 
