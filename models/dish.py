@@ -3,8 +3,8 @@ from abc import ABC, abstractmethod
 class Dish(ABC):
     def __init__(self, name, text, price):
         self._name = name
-        self._price = price
         self._text = text
+        self._price = price
     
     @abstractmethod
     def info(self):
@@ -52,7 +52,7 @@ class Beverage(Dish):
         return super().info() + [self._volume]
     
     def type_info(self):
-        return 'Beverage'
+        return 'Beverages'
     
     def __str__(self):
         return f"{self._name}\n{self._text}\nvolume: {self._volume}, price: {self._price}"
@@ -66,12 +66,12 @@ class Snack(Dish):
         return super().info() + [self._mass]
     
     def type_info(self):
-        return 'Snack'
+        return 'Snacks'
 
     def __str__(self):
         return f"{self._name}\n{self._text}\nweight: {self._mass}, price: {self._price}"
 
-class MainCourse(Dish):
+class MainDishe(Dish):
     def __init__(self, name, text, price, mass):
         super().__init__(name, text, price)
         self._mass = mass
@@ -80,9 +80,37 @@ class MainCourse(Dish):
         return super().info() + [self._mass]
     
     def type_info(self):
-        return 'MainCourse'
+        return 'MainDishes'
 
     def __str__(self):
         return f"{self._name}\n{self._text}\nweight: {self._mass}, price: {self._price}"
 
+class Garnier(MainDishe):
+    def __init__(self, name, text, price, mass, sauce):
+        super().__init__(name, text, price, mass)
+        self._sauce = sauce
+    
+    def info(self):
+        return super().info() + [self._sauce]
+    
+    def type_info(self):
+        return 'Garniers'
+    
+    def _str__(self):
+        return f"{self._name}\n{self._text}\nsauce: {self._donenes_level}\nweight: {self._mass}, price: {self._price}"
+ 
+
+class Steake(Dish):
+    def __init__(self, name, text, price, mass, don_level):
+        super().__init__(name, text, price, mass)
+        self._donenes_level = don_level
+    
+    def info(self):
+        return super().info() + [self._donenes_level]
+    
+    def type_info(self):
+        return 'Steakes'
+
+    def __str__(self):
+        return f"{self._name}\n{self._text}\ndonenes level: {self._donenes_level}\nweight: {self._mass}, price: {self._price}"
 
