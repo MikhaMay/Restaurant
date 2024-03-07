@@ -1,32 +1,13 @@
 import psycopg2
-
-
-conn = psycopg2.connect(dbname = 'postgres',  user = 'postgres', password = 'test123', host = 'localhost')
-conn.autocommit = True
-cur = conn.cursor()
-
-# Создание базы данных
-try:
-    cur.execute("CREATE DATABASE restaurant;")
-    print("Database created successfully")
-except psycopg2.errors.DuplicateDatabase:
-    print("Database already exists")
-
-# Подключение к новой базе данных для создания таблиц
-conn.close()
-
-
-conn = psycopg2.connect(dbname = 'restaurant',  user = 'postgres', password = 'test123', host = 'localhost')
-conn.autocommit = True
-cur = conn.cursor()
+from utils.logger import LogManager
 
 # SQL для создания таблиц
 create_tables_sql = """
 CREATE TABLE dishes (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(20) NOT NULL,
+    name VARCHAR(50) NOT NULL,
     text TEXT,
-    price NUMERIC NOT NULL
+    price NUMERIC(10, 2) NOT NULL
 );
 
 CREATE TABLE beverages (
@@ -52,13 +33,13 @@ CREATE TABLE snacks (
 CREATE TABLE garniers (
     id INTEGER PRIMARY KEY REFERENCES dishes(id),
     mass INTEGER,
-    sauce VARCHAR(20)
+    sauce VARCHAR(50)
 );
 
 CREATE TABLE steaks (
     id INTEGER PRIMARY KEY REFERENCES dishes(id),
     mass INTEGER,
-    don_level VARCHAR(10)
+    doneness_level VARCHAR(50)
 );
 
 CREATE TABLE menu (
@@ -67,7 +48,7 @@ CREATE TABLE menu (
 
 CREATE TABLE client (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100),
+    name VARCHAR(50),
     contact_info TEXT
 );
 
@@ -85,9 +66,39 @@ CREATE TABLE order_items (
 );
 """
 
-cur.execute(create_tables_sql)
+def create_db_and_tables():
+    # Инициализация соединения
+    try:
+        conn = psycopg2.connect(dbname='postgres', user='postgres', password='test123', host='localhost')
+        cur = conn.cursor()
+        conn.autocommit = True
 
-print("Tables created successfully")
+        # Создание базы данных
+        try:
+            cur.execute("CREATE DATABASE restaurant;")
+            LogManager.log_message("Database created successfully\n")
+        except psycopg2.errors.DuplicateDatabase:
+            LogManager.log_message("Database already exists\n")
+        finally:
+            # Подключение к новой базе данных для создания таблиц
+            conn.close()
 
-conn.close()
+
+        # Подключение к созданной базе данных
+        conn = psycopg2.connect(dbname='restaurant', user='postgres', password='test123', host='localhost')
+        cur = conn.cursor()
+
+        
+        cur.execute(create_tables_sql)
+        LogManager.log_message("Tables created successfully\n")
+        conn.commit()
+    
+    except Exception as e:
+        LogManager.log_message(f"Error during database setup: {e}\n")
+        raise  # Проброс исключения выше
+
+    finally:
+        if conn is not None:
+            conn.close()
+
 
