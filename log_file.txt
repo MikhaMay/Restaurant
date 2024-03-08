@@ -67,9 +67,9 @@ Inserted into steaks: Porterhouse
 table = steaks, concrete_details = ('Ribeye', 'Boneless ribeye steak.', 600, 350, 'Medium well')
 Inserted into steaks: Ribeye 
 All data inserted successfully 
-Error during database setup: ОШИБКА:  CREATE DATABASE не может выполняться внутри блока транзакции
+Error during database setup: пїЅпїЅпїЅпїЅпїЅпїЅ:  CREATE DATABASE пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-Error during database setup: ОШИБКА:  CREATE DATABASE не может выполняться внутри блока транзакции
+Error during database setup: пїЅпїЅпїЅпїЅпїЅпїЅ:  CREATE DATABASE пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 Database created successfully
 Tables created successfully
@@ -148,3 +148,260 @@ Inserted into steaks: Porterhouse
 table = steaks, concrete_details = ('Ribeye', 'Boneless ribeye steak.', 600, 350, 'Medium well')
 Inserted into steaks: Ribeye 
 All data inserted successfully 
+Error with database operations: 'builtin_function_or_method' object is not iterable 
+Error with database operations: 'psycopg2.extensions.cursor' object has no attribute 'excute' 
+Error with database operations: 'int' object does not support indexing 
+Error with database operations: 'int' object does not support indexing 
+into menu was added dish with id = 1into menu was added dish with id = 2into menu was added dish with id = 3into menu was added dish with id = 4into menu was added dish with id = 5into menu was added dish with id = 6into menu was added dish with id = 7into menu was added dish with id = 8into menu was added dish with id = 9into menu was added dish with id = 10into menu was added dish with id = 11into menu was added dish with id = 12into menu was added dish with id = 13into menu was added dish with id = 14into menu was added dish with id = 15into menu was added dish with id = 16into menu was added dish with id = 17into menu was added dish with id = 18into menu was added dish with id = 19into menu was added dish with id = 20into menu was added dish with id = 21into menu was added dish with id = 22into menu was added dish with id = 23into menu was added dish with id = 24into menu was added dish with id = 25into menu was added dish with id = 26into menu was added dish with id = 27into menu was added dish with id = 28into menu was added dish with id = 29into menu was added dish with id = 30into menu was added dish with id = 31into menu was added dish with id = 32into menu was added dish with id = 33into menu was added dish with id = 34Error with database operations: no results to fetch 
+into menu was added dish with id = 1into menu was added dish with id = 2into menu was added dish with id = 3into menu was added dish with id = 4into menu was added dish with id = 5into menu was added dish with id = 6into menu was added dish with id = 7into menu was added dish with id = 8into menu was added dish with id = 9into menu was added dish with id = 10into menu was added dish with id = 11into menu was added dish with id = 12into menu was added dish with id = 13into menu was added dish with id = 14into menu was added dish with id = 15into menu was added dish with id = 16into menu was added dish with id = 17into menu was added dish with id = 18into menu was added dish with id = 19into menu was added dish with id = 20into menu was added dish with id = 21into menu was added dish with id = 22into menu was added dish with id = 23into menu was added dish with id = 24into menu was added dish with id = 25into menu was added dish with id = 26into menu was added dish with id = 27into menu was added dish with id = 28into menu was added dish with id = 29into menu was added dish with id = 30into menu was added dish with id = 31into menu was added dish with id = 32into menu was added dish with id = 33into menu was added dish with id = 34Error with database operations: no results to fetch 
+into menu was added dish with id = 1
+into menu was added dish with id = 2
+into menu was added dish with id = 3
+into menu was added dish with id = 4
+into menu was added dish with id = 5
+into menu was added dish with id = 6
+into menu was added dish with id = 7
+into menu was added dish with id = 8
+into menu was added dish with id = 9
+into menu was added dish with id = 10
+into menu was added dish with id = 11
+into menu was added dish with id = 12
+into menu was added dish with id = 13
+into menu was added dish with id = 14
+into menu was added dish with id = 15
+into menu was added dish with id = 16
+into menu was added dish with id = 17
+into menu was added dish with id = 18
+into menu was added dish with id = 19
+into menu was added dish with id = 20
+into menu was added dish with id = 21
+into menu was added dish with id = 22
+into menu was added dish with id = 23
+into menu was added dish with id = 24
+into menu was added dish with id = 25
+into menu was added dish with id = 26
+into menu was added dish with id = 27
+into menu was added dish with id = 28
+into menu was added dish with id = 29
+into menu was added dish with id = 30
+into menu was added dish with id = 31
+into menu was added dish with id = 32
+into menu was added dish with id = 33
+into menu was added dish with id = 34
+into menu was added dish with id = (1,)
+into menu was added dish with id = (2,)
+into menu was added dish with id = (3,)
+into menu was added dish with id = (4,)
+into menu was added dish with id = (5,)
+into menu was added dish with id = (6,)
+into menu was added dish with id = (7,)
+into menu was added dish with id = (8,)
+into menu was added dish with id = (9,)
+into menu was added dish with id = (10,)
+into menu was added dish with id = (11,)
+into menu was added dish with id = (12,)
+into menu was added dish with id = (13,)
+into menu was added dish with id = (14,)
+into menu was added dish with id = (15,)
+into menu was added dish with id = (16,)
+into menu was added dish with id = (17,)
+into menu was added dish with id = (18,)
+into menu was added dish with id = (19,)
+into menu was added dish with id = (20,)
+into menu was added dish with id = (21,)
+into menu was added dish with id = (22,)
+into menu was added dish with id = (23,)
+into menu was added dish with id = (24,)
+into menu was added dish with id = (25,)
+into menu was added dish with id = (26,)
+into menu was added dish with id = (27,)
+into menu was added dish with id = (28,)
+into menu was added dish with id = (29,)
+into menu was added dish with id = (30,)
+into menu was added dish with id = (31,)
+into menu was added dish with id = (32,)
+into menu was added dish with id = (33,)
+into menu was added dish with id = (34,)
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+starting drawing menu...
+ending drawing menu
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+starting drawing menu...
+ending drawing menu
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+order 0 was created
+into order 0 was added Tomato Soup. Order summ is 200.00
+into order 0 was added Chicken Soup. Order summ is 350.00
+into order 0 was added Mushroom Soup. Order summ is 550.00
+into order 0 was added Mushroom Soup. Order summ is 750.00
+In order 0 now 1 Mushroom Soup, new order summ is 550.00
+All Mushroom Soup from order 0 was removed! New order summ is 350.00
+All Chicken Soup from order 0 was removed! New order summ is 200.00
+All Tomato Soup from order 0 was removed! New order summ is 0.00
+into order 0 was added Tomato Soup. Order summ is 200.00
+into order 0 was added Chicken Soup. Order summ is 350.00
+into order 0 was added Mushroom Soup. Order summ is 550.00
+into order 0 was added Mushroom Soup. Order summ is 750.00
+into order 0 was added Chicken Soup. Order summ is 900.00
+into order 0 was added Tomato Soup. Order summ is 1100.00
+into order 0 was added Tomato Soup. Order summ is 1300.00
+In order 0 now 1 Mushroom Soup, new order summ is 1100.00
+All Mushroom Soup from order 0 was removed! New order summ is 900.00
+In order 0 now 1 Chicken Soup, new order summ is 750.00
+All Chicken Soup from order 0 was removed! New order summ is 600.00
+In order 0 now 2 Tomato Soup, new order summ is 400.00
+In order 0 now 1 Tomato Soup, new order summ is 200.00
+All Tomato Soup from order 0 was removed! New order summ is 0.00
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+order 0 was created
+
+STARTING BIG TEST BEFORE COMMITDatabase created successfully
+Tables created successfully
+Starting inserts into soup
+table = soup, concrete_details = ('Tomato Soup', 'Rich and creamy tomato soup', 200, 300)
+Inserted into soup: Tomato Soup 
+table = soup, concrete_details = ('Chicken Soup', 'Classic chicken soup with noodles', 150, 250)
+Inserted into soup: Chicken Soup 
+table = soup, concrete_details = ('Mushroom Soup', 'Creamy mushroom soup with herbs', 200, 350)
+Inserted into soup: Mushroom Soup 
+Starting inserts into beverages
+table = beverages, concrete_details = ('Coca-Cola', 'Classic Coca-Cola.', 200, 330)
+Inserted into beverages: Coca-Cola 
+table = beverages, concrete_details = ('Green Tea', 'Refreshing green tea.', 70, 200)
+Inserted into beverages: Green Tea 
+table = beverages, concrete_details = ('Espresso', 'Strong espresso coffee.', 120, 50)
+Inserted into beverages: Espresso 
+table = beverages, concrete_details = ('Orange Juice', 'Fresh orange juice.', 100, 250)
+Inserted into beverages: Orange Juice 
+table = beverages, concrete_details = ('Mineral Water', 'Sparkling mineral water.', 80, 500)
+Inserted into beverages: Mineral Water 
+Starting inserts into snacks
+table = snacks, concrete_details = ('Chips', 'Salty potato chips.', 100, 100)
+Inserted into snacks: Chips 
+table = snacks, concrete_details = ('Nuts Mix', 'Mixed nuts.', 200, 150)
+Inserted into snacks: Nuts Mix 
+table = snacks, concrete_details = ('Cheese Sticks', 'Crispy cheese sticks.', 150, 120)
+Inserted into snacks: Cheese Sticks 
+table = snacks, concrete_details = ('Bruschetta', 'Tomato and basil bruschetta.', 200, 200)
+Inserted into snacks: Bruschetta 
+Starting inserts into main_dishes
+table = main_dishes, concrete_details = ('Veggie Pizza', 'Vegetarian pizza with mozzarella.', 450, 450)
+Inserted into main_dishes: Veggie Pizza 
+table = main_dishes, concrete_details = ('Burger', 'Beef burger with fries.', 350, 350)
+Inserted into main_dishes: Burger 
+table = main_dishes, concrete_details = ('Chicken Parmesan', 'Breaded chicken breast topped with marinara sauce and mozzarella cheese.', 500, 300)
+Inserted into main_dishes: Chicken Parmesan 
+table = main_dishes, concrete_details = ('Seafood Paella', 'Traditional Spanish rice dish with shrimp, mussels, and clams.', 550, 350)
+Inserted into main_dishes: Seafood Paella 
+table = main_dishes, concrete_details = ('Vegetable Stir Fry', 'Mixed vegetables stir-fried with soy sauce and sesame seeds.', 400, 250)
+Inserted into main_dishes: Vegetable Stir Fry 
+table = main_dishes, concrete_details = ('Duck Confit', 'Slow-cooked duck leg with crispy skin.', 350, 280)
+Inserted into main_dishes: Duck Confit 
+table = main_dishes, concrete_details = ('Lamb Curry', 'Spicy lamb curry with potatoes and peas.', 300, 320)
+Inserted into main_dishes: Lamb Curry 
+table = main_dishes, concrete_details = ('Mushroom Risotto', 'Creamy risotto with wild mushrooms and Parmesan cheese.', 400, 300)
+Inserted into main_dishes: Mushroom Risotto 
+table = main_dishes, concrete_details = ('Pulled Pork Sandwich', 'Slow-cooked pulled pork with BBQ sauce on a brioche bun.', 300, 200)
+Inserted into main_dishes: Pulled Pork Sandwich 
+table = main_dishes, concrete_details = ('Salmon Tartare', 'Fresh salmon tartare with avocado and lime.', 300, 220)
+Inserted into main_dishes: Salmon Tartare 
+table = main_dishes, concrete_details = ('Eggplant Parmigiana', 'Layers of eggplant with tomato sauce, mozzarella, and Parmesan cheese.', 300, 260)
+Inserted into main_dishes: Eggplant Parmigiana 
+table = main_dishes, concrete_details = ('Beef Tacos', 'Three tacos with marinated beef, salsa, and cheese.', 250, 180)
+Inserted into main_dishes: Beef Tacos 
+Starting inserts into garniers
+table = garniers, concrete_details = ('Mashed Potatoes', 'Creamy mashed potatoes.', 150, 200, 'Butter')
+Inserted into garniers: Mashed Potatoes 
+table = garniers, concrete_details = ('Rice Pilaf', 'Rice pilaf with carrots.', 150, 250, 'Curry')
+Inserted into garniers: Rice Pilaf 
+table = garniers, concrete_details = ('Grilled Vegetables', 'Assorted grilled vegetables.', 200, 300, 'Herb')
+Inserted into garniers: Grilled Vegetables 
+table = garniers, concrete_details = ('French Fries', 'Crispy french fries.', 150, 150, 'Ketchup')
+Inserted into garniers: French Fries 
+table = garniers, concrete_details = ('Caesar Salad', 'Caesar salad with croutons.', 200, 180, 'Caesar')
+Inserted into garniers: Caesar Salad 
+Starting inserts into steakes
+table = steakes, concrete_details = ('T-Bone Steak', 'Grilled T-bone steak.', 500, 350, 'Medium')
+Inserted into steakes: T-Bone Steak 
+table = steakes, concrete_details = ('Filet Mignon', 'Tender filet mignon.', 500, 200, 'Rare')
+Inserted into steakes: Filet Mignon 
+table = steakes, concrete_details = ('New York Strip', 'Juicy New York strip steak.', 500, 300, 'Well-done')
+Inserted into steakes: New York Strip 
+table = steakes, concrete_details = ('Porterhouse', 'Large porterhouse steak.', 600, 400, 'Medium rare')
+Inserted into steakes: Porterhouse 
+table = steakes, concrete_details = ('Ribeye', 'Boneless ribeye steak.', 600, 350, 'Medium well')
+Inserted into steakes: Ribeye 
+All data inserted successfully 
+into menu was added dish with id = (1,)
+into menu was added dish with id = (2,)
+into menu was added dish with id = (3,)
+into menu was added dish with id = (4,)
+into menu was added dish with id = (5,)
+into menu was added dish with id = (6,)
+into menu was added dish with id = (7,)
+into menu was added dish with id = (8,)
+into menu was added dish with id = (9,)
+into menu was added dish with id = (10,)
+into menu was added dish with id = (11,)
+into menu was added dish with id = (12,)
+into menu was added dish with id = (13,)
+into menu was added dish with id = (14,)
+into menu was added dish with id = (15,)
+into menu was added dish with id = (16,)
+into menu was added dish with id = (17,)
+into menu was added dish with id = (18,)
+into menu was added dish with id = (19,)
+into menu was added dish with id = (20,)
+into menu was added dish with id = (21,)
+into menu was added dish with id = (22,)
+into menu was added dish with id = (23,)
+into menu was added dish with id = (24,)
+into menu was added dish with id = (25,)
+into menu was added dish with id = (26,)
+into menu was added dish with id = (27,)
+into menu was added dish with id = (28,)
+into menu was added dish with id = (29,)
+into menu was added dish with id = (30,)
+into menu was added dish with id = (31,)
+into menu was added dish with id = (32,)
+into menu was added dish with id = (33,)
+into menu was added dish with id = (34,)

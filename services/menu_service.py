@@ -5,14 +5,15 @@ from collections import defaultdict
 
 class Menu:
     _instance = None
+    _dishes = defaultdict(list)
 
     def __new__(cls, *args, **kwargs):
         if cls._instance == None:
-            cls._instance = super().__new__(cls)
+            cls._instance = super().__new__(cls) 
         return cls._instance
     
     def __init__(self):
-        self._dishes = defaultdict(list)
+        pass
     
     def add_dish(self, dish):
         if dish in self._dishes[dish.type_info()]:

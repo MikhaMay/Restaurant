@@ -83,7 +83,7 @@ def insert_into(cur, details, table):
             INSERT INTO {table} (id, mass, sauce)
             VALUES (%s, %s, %s);
             """, (dish_id, concrete_details[3], concrete_details[4]))
-        elif table == 'steaks':
+        elif table == 'steakes':
             cur.execute(f"""
             INSERT INTO {table} (id, mass, doneness_level)
             VALUES (%s, %s, %s);
@@ -100,7 +100,7 @@ def insert_data():
                 insert_into(cur, snack_details, 'snacks')
                 insert_into(cur, main_dish_details, 'main_dishes')
                 insert_into(cur, garnier_details, 'garniers')
-                insert_into(cur, steak_details, 'steaks')
+                insert_into(cur, steak_details, 'steakes')
 
                 conn.commit()  # Фиксация транзакции
 

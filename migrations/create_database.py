@@ -36,7 +36,7 @@ CREATE TABLE garniers (
     sauce VARCHAR(50)
 );
 
-CREATE TABLE steaks (
+CREATE TABLE steakes (
     id INTEGER PRIMARY KEY REFERENCES dishes(id),
     mass INTEGER,
     doneness_level VARCHAR(50)
