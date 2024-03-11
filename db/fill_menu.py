@@ -1,12 +1,12 @@
 import psycopg2
 from utils.logger import LogManager
 
-def insert_into_menu():
+def fill_menu_table(dbparams):
     try:
-        with psycopg2.connect(dbname="restaurant", user="postgres", password="test123", host="localhost") as conn:
+        with psycopg2.connect(**dbparams) as conn:
             with conn.cursor() as cur:
 
-                cur.execute('SELECT id FROM dishes;')
+                cur.execute('SELECT id FROM dish;')
 
                 dishes_id = cur.fetchall()
 

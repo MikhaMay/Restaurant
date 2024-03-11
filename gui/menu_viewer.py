@@ -15,7 +15,7 @@ class MenuApp(QWidget):
         self.menuLayout = QVBoxLayout()
 
         for dish_type in self.menu_items.keys():
-            btn = QPushButton(dish_type.capitalize())
+            btn = QPushButton(dish_type)
             btn.clicked.connect(lambda checked, t=dish_type: self.showDishesOfType(t))
             self.typeLayout.addWidget(btn)
 

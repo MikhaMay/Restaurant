@@ -38,7 +38,7 @@ main_dish_details = [
     ('Beef Tacos', 'Three tacos with marinated beef, salsa, and cheese.', 250, 180)
 ]
 
-garnier_details = [
+garnish_details = [
     ('Mashed Potatoes', 'Creamy mashed potatoes.', 150, 200, 'Butter'),
     ('Rice Pilaf', 'Rice pilaf with carrots.', 150, 250, 'Curry'),
     ('Grilled Vegetables', 'Assorted grilled vegetables.', 200, 300, 'Herb'),
@@ -56,58 +56,60 @@ steak_details = [
 
 
 
-def insert_into(cur, details, table):
-    LogManager.log_message(f'Starting inserts into {table}\n')
-    for concrete_details in details:
-        LogManager.log_message(f'table = {table}, concrete_details = {concrete_details}\n')
-        cur.execute( f"""
-        INSERT INTO dishes (name, text, price)
-        VALUES (%s, %s, %s) RETURNING id;
-        """, (concrete_details[0], concrete_details[1], concrete_details[2]))
-
-        dish_id = cur.fetchone()[0]  # Получаем id
+def insert_dish_details(cur, details, table):
+    LogManager.log_message(f'Starting to insert into {table}\n')
+    for concrete_datails in details:
+        # Вставка в таблицу dish
+        cur.execute("""
+            INSERT INTO dish (name, description, price)
+            VALUES (%s, %s, %s) RETURNING id;
+            """, (concrete_datails[0], concrete_datails[1], concrete_datails[2]))
+        dish_id = cur.fetchone()[0]
         
-        # Формируем запрос для вставки в конкретную таблицу
-        if table == 'soup' or table == 'snacks' or table == 'main_dishes':
+        # Вставка в специфичные таблицы блюд
+        if table in ['soup', 'snack', 'main_dish']:
             cur.execute(f"""
-            INSERT INTO {table} (id, mass)
-            VALUES (%s, %s);
-            """, (dish_id, concrete_details[3]))
-        elif table == 'beverages':
+                INSERT INTO {table} (id, mass_g)
+                VALUES (%s, %s);
+                """, (dish_id, concrete_datails[3])) 
+        elif table == 'garnish':
             cur.execute(f"""
-            INSERT INTO {table} (id, volume)
-            VALUES (%s, %s);
-            """, (dish_id, concrete_details[3]))
-        elif table == 'garniers':
+                INSERT INTO {table} (id, mass_g, sauce)
+                VALUES (%s, %s, %s);
+                """, (dish_id, concrete_datails[3], concrete_datails[4])) 
+        elif table == 'steak':
             cur.execute(f"""
-            INSERT INTO {table} (id, mass, sauce)
-            VALUES (%s, %s, %s);
-            """, (dish_id, concrete_details[3], concrete_details[4]))
-        elif table == 'steakes':
-            cur.execute(f"""
-            INSERT INTO {table} (id, mass, doneness_level)
-            VALUES (%s, %s, %s);
-            """, (dish_id, concrete_details[3], concrete_details[4]))
-        LogManager.log_message(f'Inserted into {table}: {concrete_details[0]} \n')
+                INSERT INTO {table} (id, mass_g, doneness)
+                VALUES (%s, %s, %s);
+                """, (dish_id, concrete_datails[3], concrete_datails[4])) 
+        elif table == 'beverage':
+            cur.execute("""
+                INSERT INTO beverage (id, volume_ml)
+                VALUES (%s, %s);
+                """, (dish_id, concrete_datails[3]))
+            
+        LogManager.log_message(f'Inserted into {table}: {concrete_datails[0]}\n')
 
-def insert_data():
+# Главная функция для запуска процесса заполнения
+def fill_tables(dbparams):
     try:
-        with psycopg2.connect(dbname="restaurant", user="postgres", password="test123", host="localhost") as conn:
-            with conn.cursor() as cur:
-
-                insert_into(cur, soup_details, 'soup')
-                insert_into(cur, beverage_details, 'beverages')
-                insert_into(cur, snack_details, 'snacks')
-                insert_into(cur, main_dish_details, 'main_dishes')
-                insert_into(cur, garnier_details, 'garniers')
-                insert_into(cur, steak_details, 'steakes')
-
-                conn.commit()  # Фиксация транзакции
-
-                LogManager.log_message('All data inserted successfully \n')
-
-
+        conn = psycopg2.connect(**dbparams)
+        cur = conn.cursor()
+        
+        insert_dish_details(cur, soup_details, 'soup')
+        insert_dish_details(cur, beverage_details, 'beverage')
+        insert_dish_details(cur, snack_details, 'snack')
+        insert_dish_details(cur, main_dish_details, 'main_dish')
+        insert_dish_details(cur, garnish_details, 'garnish')
+        insert_dish_details(cur, steak_details, 'steak')
+        
+        conn.commit()
+        LogManager.log_message('All dishes have been inserted successfully.\n')
+        
     except Exception as e:
-        LogManager.log_message(f'Error with database operations: {e} \n')
-        raise 
+        LogManager.log_message(f'Error while inserting dishes: {e}\n')
+        raise
+    finally:
+        if conn is not None:
+            conn.close()
 

@@ -94,12 +94,12 @@ class Garnier(MainDishe):
         return super().info() + [self._sauce]
     
     def type_info(self):
-        return 'Garniers'
+        return 'Garnishes'
     
     def _str__(self):
         return f"{self._name}\n{self._text}\nsauce: {self._donenes_level}\nweight: {self._mass}, price: {self._price}"
 
-class Steake(Dish):
+class Steake(MainDishe):
     def __init__(self, name, text, price, mass, don_level):
         super().__init__(name, text, price, mass)
         self._donenes_level = don_level
@@ -108,7 +108,7 @@ class Steake(Dish):
         return super().info() + [self._donenes_level]
     
     def type_info(self):
-        return 'Steakes'
+        return 'Steaks'
 
     def __str__(self):
         return f"{self._name}\n{self._text}\ndonenes level: {self._donenes_level}\nweight: {self._mass}, price: {self._price}"
@@ -120,13 +120,13 @@ class DishFactory:
             return Soup(*params)
         elif dish_type == 'Beverages':
             return Beverage(*params)
-        elif dish_type == 'snacks':
+        elif dish_type == 'Snacks':
             return Snack(*params)
         elif dish_type == 'Main Dishes':
             return MainDishe(*params)
-        elif dish_type == 'Garniers':
+        elif dish_type == 'Garnishes':
             return Garnier(*params)
-        elif dish_type == 'Steakes':
+        elif dish_type == 'Steaks':
             return Steake(*params)
     
         

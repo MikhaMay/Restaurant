@@ -1,193 +1,655 @@
-Starting inserts into souptable = soup, concrete_details = ('Tomato Soup', 'Rich and creamy tomato soup', 200, 300)
-Inserted into soup: Tomato Soup 
-table = soup, concrete_details = ('Chicken Soup', 'Classic chicken soup with noodles', 150, 250)
-Inserted into soup: Chicken Soup 
-table = soup, concrete_details = ('Mushroom Soup', 'Creamy mushroom soup with herbs', 200, 350)
-Inserted into soup: Mushroom Soup 
-Starting inserts into beveragestable = beverages, concrete_details = ('Coca-Cola', 'Classic Coca-Cola.', 200, 330)
-Inserted into beverages: Coca-Cola 
-table = beverages, concrete_details = ('Green Tea', 'Refreshing green tea.', 70, 200)
-Inserted into beverages: Green Tea 
-table = beverages, concrete_details = ('Espresso', 'Strong espresso coffee.', 120, 50)
-Inserted into beverages: Espresso 
-table = beverages, concrete_details = ('Orange Juice', 'Fresh orange juice.', 100, 250)
-Inserted into beverages: Orange Juice 
-table = beverages, concrete_details = ('Mineral Water', 'Sparkling mineral water.', 80, 500)
-Inserted into beverages: Mineral Water 
-Starting inserts into snackstable = snacks, concrete_details = ('Chips', 'Salty potato chips.', 100, 100)
-Inserted into snacks: Chips 
-table = snacks, concrete_details = ('Nuts Mix', 'Mixed nuts.', 200, 150)
-Inserted into snacks: Nuts Mix 
-table = snacks, concrete_details = ('Cheese Sticks', 'Crispy cheese sticks.', 150, 120)
-Inserted into snacks: Cheese Sticks 
-table = snacks, concrete_details = ('Bruschetta', 'Tomato and basil bruschetta.', 200, 200)
-Inserted into snacks: Bruschetta 
-Starting inserts into main_dishestable = main_dishes, concrete_details = ('Veggie Pizza', 'Vegetarian pizza with mozzarella.', 450, 450)
-Inserted into main_dishes: Veggie Pizza 
-table = main_dishes, concrete_details = ('Burger', 'Beef burger with fries.', 350, 350)
-Inserted into main_dishes: Burger 
-table = main_dishes, concrete_details = ('Chicken Parmesan', 'Breaded chicken breast topped with marinara sauce and mozzarella cheese.', 500, 300)
-Inserted into main_dishes: Chicken Parmesan 
-table = main_dishes, concrete_details = ('Seafood Paella', 'Traditional Spanish rice dish with shrimp, mussels, and clams.', 550, 350)
-Inserted into main_dishes: Seafood Paella 
-table = main_dishes, concrete_details = ('Vegetable Stir Fry', 'Mixed vegetables stir-fried with soy sauce and sesame seeds.', 400, 250)
-Inserted into main_dishes: Vegetable Stir Fry 
-table = main_dishes, concrete_details = ('Duck Confit', 'Slow-cooked duck leg with crispy skin.', 350, 280)
-Inserted into main_dishes: Duck Confit 
-table = main_dishes, concrete_details = ('Lamb Curry', 'Spicy lamb curry with potatoes and peas.', 300, 320)
-Inserted into main_dishes: Lamb Curry 
-table = main_dishes, concrete_details = ('Mushroom Risotto', 'Creamy risotto with wild mushrooms and Parmesan cheese.', 400, 300)
-Inserted into main_dishes: Mushroom Risotto 
-table = main_dishes, concrete_details = ('Pulled Pork Sandwich', 'Slow-cooked pulled pork with BBQ sauce on a brioche bun.', 300, 200)
-Inserted into main_dishes: Pulled Pork Sandwich 
-table = main_dishes, concrete_details = ('Salmon Tartare', 'Fresh salmon tartare with avocado and lime.', 300, 220)
-Inserted into main_dishes: Salmon Tartare 
-table = main_dishes, concrete_details = ('Eggplant Parmigiana', 'Layers of eggplant with tomato sauce, mozzarella, and Parmesan cheese.', 300, 260)
-Inserted into main_dishes: Eggplant Parmigiana 
-table = main_dishes, concrete_details = ('Beef Tacos', 'Three tacos with marinated beef, salsa, and cheese.', 250, 180)
-Inserted into main_dishes: Beef Tacos 
-Starting inserts into garnierstable = garniers, concrete_details = ('Mashed Potatoes', 'Creamy mashed potatoes.', 150, 200, 'Butter')
-Inserted into garniers: Mashed Potatoes 
-table = garniers, concrete_details = ('Rice Pilaf', 'Rice pilaf with carrots.', 150, 250, 'Curry')
-Inserted into garniers: Rice Pilaf 
-table = garniers, concrete_details = ('Grilled Vegetables', 'Assorted grilled vegetables.', 200, 300, 'Herb')
-Inserted into garniers: Grilled Vegetables 
-table = garniers, concrete_details = ('French Fries', 'Crispy french fries.', 150, 150, 'Ketchup')
-Inserted into garniers: French Fries 
-table = garniers, concrete_details = ('Caesar Salad', 'Caesar salad with croutons.', 200, 180, 'Caesar')
-Inserted into garniers: Caesar Salad 
-Starting inserts into steakstable = steaks, concrete_details = ('T-Bone Steak', 'Grilled T-bone steak.', 500, 350, 'Medium')
-Inserted into steaks: T-Bone Steak 
-table = steaks, concrete_details = ('Filet Mignon', 'Tender filet mignon.', 500, 200, 'Rare')
-Inserted into steaks: Filet Mignon 
-table = steaks, concrete_details = ('New York Strip', 'Juicy New York strip steak.', 500, 300, 'Well-done')
-Inserted into steaks: New York Strip 
-table = steaks, concrete_details = ('Porterhouse', 'Large porterhouse steak.', 600, 400, 'Medium rare')
-Inserted into steaks: Porterhouse 
-table = steaks, concrete_details = ('Ribeye', 'Boneless ribeye steak.', 600, 350, 'Medium well')
-Inserted into steaks: Ribeye 
-All data inserted successfully 
-Error during database setup: пїЅпїЅпїЅпїЅпїЅпїЅ:  CREATE DATABASE пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
+order 0 was created
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
+order 0 was created
+Error during database setup: Expected bytes or unicode string, got dict insteadError during database setup: ОШИБКА:  CREATE DATABASE не может выполняться внутри блока транзакции
+Database created successfully.
+Error during database setup: ОШИБКА:  ошибка синтаксиса (примерное положение: "order")
+LINE 51: CREATE TABLE order (
+                      ^
+Database already exists.
+Error during database setup: ОШИБКА:  ошибка синтаксиса (примерное положение: "order")
+LINE 51: CREATE TABLE order (
+                      ^
+Database already exists.
+Error during database setup: ОШИБКА:  отношение "dishes" не существует
+Database already exists.
+Tables created successfully.Starting to insert into soup
+Inserted into soup: Tomato Soup
+Inserted into soup: Chicken Soup
+Inserted into soup: Mushroom Soup
+Starting to insert into beverage
+Inserted into beverage: Coca-Cola
+Inserted into beverage: Green Tea
+Inserted into beverage: Espresso
+Inserted into beverage: Orange Juice
+Inserted into beverage: Mineral Water
+Starting to insert into snack
+Inserted into snack: Chips
+Inserted into snack: Nuts Mix
+Inserted into snack: Cheese Sticks
+Inserted into snack: Bruschetta
+Starting to insert into main_dish
+Inserted into main_dish: Veggie Pizza
+Inserted into main_dish: Burger
+Inserted into main_dish: Chicken Parmesan
+Inserted into main_dish: Seafood Paella
+Inserted into main_dish: Vegetable Stir Fry
+Inserted into main_dish: Duck Confit
+Inserted into main_dish: Lamb Curry
+Inserted into main_dish: Mushroom Risotto
+Inserted into main_dish: Pulled Pork Sandwich
+Inserted into main_dish: Salmon Tartare
+Inserted into main_dish: Eggplant Parmigiana
+Inserted into main_dish: Beef Tacos
+Starting to insert into garnish
+Error while inserting dishes: too many values to unpack (expected 4)
+Database already exists.
+Error during database setup: ОШИБКА:  отношение "dish" уже существует
+Starting to insert into soup
+Starting to insert into beverage
+Inserted into beverage: Coca-Cola
+Inserted into beverage: Green Tea
+Inserted into beverage: Espresso
+Inserted into beverage: Orange Juice
+Inserted into beverage: Mineral Water
+Starting to insert into snack
+Starting to insert into main_dish
+Starting to insert into garnish
+Error while inserting dishes: too many values to unpack (expected 4)
+Starting to insert into soup
+Starting to insert into beverage
+Error while inserting dishes: ОШИБКА:  столбец "volume_ml" имеет тип integer, а выражение - integer[]
+LINE 3:                 VALUES (52, ARRAY[330]);
+                                    ^
+HINT:  Перепишите выражение или преобразуйте его тип.
 
-Error during database setup: пїЅпїЅпїЅпїЅпїЅпїЅ:  CREATE DATABASE пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-
-Database created successfully
-Tables created successfully
-Starting inserts into soup
-table = soup, concrete_details = ('Tomato Soup', 'Rich and creamy tomato soup', 200, 300)
-Inserted into soup: Tomato Soup 
-table = soup, concrete_details = ('Chicken Soup', 'Classic chicken soup with noodles', 150, 250)
-Inserted into soup: Chicken Soup 
-table = soup, concrete_details = ('Mushroom Soup', 'Creamy mushroom soup with herbs', 200, 350)
-Inserted into soup: Mushroom Soup 
-Starting inserts into beverages
-table = beverages, concrete_details = ('Coca-Cola', 'Classic Coca-Cola.', 200, 330)
-Inserted into beverages: Coca-Cola 
-table = beverages, concrete_details = ('Green Tea', 'Refreshing green tea.', 70, 200)
-Inserted into beverages: Green Tea 
-table = beverages, concrete_details = ('Espresso', 'Strong espresso coffee.', 120, 50)
-Inserted into beverages: Espresso 
-table = beverages, concrete_details = ('Orange Juice', 'Fresh orange juice.', 100, 250)
-Inserted into beverages: Orange Juice 
-table = beverages, concrete_details = ('Mineral Water', 'Sparkling mineral water.', 80, 500)
-Inserted into beverages: Mineral Water 
-Starting inserts into snacks
-table = snacks, concrete_details = ('Chips', 'Salty potato chips.', 100, 100)
-Inserted into snacks: Chips 
-table = snacks, concrete_details = ('Nuts Mix', 'Mixed nuts.', 200, 150)
-Inserted into snacks: Nuts Mix 
-table = snacks, concrete_details = ('Cheese Sticks', 'Crispy cheese sticks.', 150, 120)
-Inserted into snacks: Cheese Sticks 
-table = snacks, concrete_details = ('Bruschetta', 'Tomato and basil bruschetta.', 200, 200)
-Inserted into snacks: Bruschetta 
-Starting inserts into main_dishes
-table = main_dishes, concrete_details = ('Veggie Pizza', 'Vegetarian pizza with mozzarella.', 450, 450)
-Inserted into main_dishes: Veggie Pizza 
-table = main_dishes, concrete_details = ('Burger', 'Beef burger with fries.', 350, 350)
-Inserted into main_dishes: Burger 
-table = main_dishes, concrete_details = ('Chicken Parmesan', 'Breaded chicken breast topped with marinara sauce and mozzarella cheese.', 500, 300)
-Inserted into main_dishes: Chicken Parmesan 
-table = main_dishes, concrete_details = ('Seafood Paella', 'Traditional Spanish rice dish with shrimp, mussels, and clams.', 550, 350)
-Inserted into main_dishes: Seafood Paella 
-table = main_dishes, concrete_details = ('Vegetable Stir Fry', 'Mixed vegetables stir-fried with soy sauce and sesame seeds.', 400, 250)
-Inserted into main_dishes: Vegetable Stir Fry 
-table = main_dishes, concrete_details = ('Duck Confit', 'Slow-cooked duck leg with crispy skin.', 350, 280)
-Inserted into main_dishes: Duck Confit 
-table = main_dishes, concrete_details = ('Lamb Curry', 'Spicy lamb curry with potatoes and peas.', 300, 320)
-Inserted into main_dishes: Lamb Curry 
-table = main_dishes, concrete_details = ('Mushroom Risotto', 'Creamy risotto with wild mushrooms and Parmesan cheese.', 400, 300)
-Inserted into main_dishes: Mushroom Risotto 
-table = main_dishes, concrete_details = ('Pulled Pork Sandwich', 'Slow-cooked pulled pork with BBQ sauce on a brioche bun.', 300, 200)
-Inserted into main_dishes: Pulled Pork Sandwich 
-table = main_dishes, concrete_details = ('Salmon Tartare', 'Fresh salmon tartare with avocado and lime.', 300, 220)
-Inserted into main_dishes: Salmon Tartare 
-table = main_dishes, concrete_details = ('Eggplant Parmigiana', 'Layers of eggplant with tomato sauce, mozzarella, and Parmesan cheese.', 300, 260)
-Inserted into main_dishes: Eggplant Parmigiana 
-table = main_dishes, concrete_details = ('Beef Tacos', 'Three tacos with marinated beef, salsa, and cheese.', 250, 180)
-Inserted into main_dishes: Beef Tacos 
-Starting inserts into garniers
-table = garniers, concrete_details = ('Mashed Potatoes', 'Creamy mashed potatoes.', 150, 200, 'Butter')
-Inserted into garniers: Mashed Potatoes 
-table = garniers, concrete_details = ('Rice Pilaf', 'Rice pilaf with carrots.', 150, 250, 'Curry')
-Inserted into garniers: Rice Pilaf 
-table = garniers, concrete_details = ('Grilled Vegetables', 'Assorted grilled vegetables.', 200, 300, 'Herb')
-Inserted into garniers: Grilled Vegetables 
-table = garniers, concrete_details = ('French Fries', 'Crispy french fries.', 150, 150, 'Ketchup')
-Inserted into garniers: French Fries 
-table = garniers, concrete_details = ('Caesar Salad', 'Caesar salad with croutons.', 200, 180, 'Caesar')
-Inserted into garniers: Caesar Salad 
-Starting inserts into steaks
-table = steaks, concrete_details = ('T-Bone Steak', 'Grilled T-bone steak.', 500, 350, 'Medium')
-Inserted into steaks: T-Bone Steak 
-table = steaks, concrete_details = ('Filet Mignon', 'Tender filet mignon.', 500, 200, 'Rare')
-Inserted into steaks: Filet Mignon 
-table = steaks, concrete_details = ('New York Strip', 'Juicy New York strip steak.', 500, 300, 'Well-done')
-Inserted into steaks: New York Strip 
-table = steaks, concrete_details = ('Porterhouse', 'Large porterhouse steak.', 600, 400, 'Medium rare')
-Inserted into steaks: Porterhouse 
-table = steaks, concrete_details = ('Ribeye', 'Boneless ribeye steak.', 600, 350, 'Medium well')
-Inserted into steaks: Ribeye 
-All data inserted successfully 
-Error with database operations: 'builtin_function_or_method' object is not iterable 
-Error with database operations: 'psycopg2.extensions.cursor' object has no attribute 'excute' 
-Error with database operations: 'int' object does not support indexing 
-Error with database operations: 'int' object does not support indexing 
-into menu was added dish with id = 1into menu was added dish with id = 2into menu was added dish with id = 3into menu was added dish with id = 4into menu was added dish with id = 5into menu was added dish with id = 6into menu was added dish with id = 7into menu was added dish with id = 8into menu was added dish with id = 9into menu was added dish with id = 10into menu was added dish with id = 11into menu was added dish with id = 12into menu was added dish with id = 13into menu was added dish with id = 14into menu was added dish with id = 15into menu was added dish with id = 16into menu was added dish with id = 17into menu was added dish with id = 18into menu was added dish with id = 19into menu was added dish with id = 20into menu was added dish with id = 21into menu was added dish with id = 22into menu was added dish with id = 23into menu was added dish with id = 24into menu was added dish with id = 25into menu was added dish with id = 26into menu was added dish with id = 27into menu was added dish with id = 28into menu was added dish with id = 29into menu was added dish with id = 30into menu was added dish with id = 31into menu was added dish with id = 32into menu was added dish with id = 33into menu was added dish with id = 34Error with database operations: no results to fetch 
-into menu was added dish with id = 1into menu was added dish with id = 2into menu was added dish with id = 3into menu was added dish with id = 4into menu was added dish with id = 5into menu was added dish with id = 6into menu was added dish with id = 7into menu was added dish with id = 8into menu was added dish with id = 9into menu was added dish with id = 10into menu was added dish with id = 11into menu was added dish with id = 12into menu was added dish with id = 13into menu was added dish with id = 14into menu was added dish with id = 15into menu was added dish with id = 16into menu was added dish with id = 17into menu was added dish with id = 18into menu was added dish with id = 19into menu was added dish with id = 20into menu was added dish with id = 21into menu was added dish with id = 22into menu was added dish with id = 23into menu was added dish with id = 24into menu was added dish with id = 25into menu was added dish with id = 26into menu was added dish with id = 27into menu was added dish with id = 28into menu was added dish with id = 29into menu was added dish with id = 30into menu was added dish with id = 31into menu was added dish with id = 32into menu was added dish with id = 33into menu was added dish with id = 34Error with database operations: no results to fetch 
-into menu was added dish with id = 1
-into menu was added dish with id = 2
-into menu was added dish with id = 3
-into menu was added dish with id = 4
-into menu was added dish with id = 5
-into menu was added dish with id = 6
-into menu was added dish with id = 7
-into menu was added dish with id = 8
-into menu was added dish with id = 9
-into menu was added dish with id = 10
-into menu was added dish with id = 11
-into menu was added dish with id = 12
-into menu was added dish with id = 13
-into menu was added dish with id = 14
-into menu was added dish with id = 15
-into menu was added dish with id = 16
-into menu was added dish with id = 17
-into menu was added dish with id = 18
-into menu was added dish with id = 19
-into menu was added dish with id = 20
-into menu was added dish with id = 21
-into menu was added dish with id = 22
-into menu was added dish with id = 23
-into menu was added dish with id = 24
-into menu was added dish with id = 25
-into menu was added dish with id = 26
-into menu was added dish with id = 27
-into menu was added dish with id = 28
-into menu was added dish with id = 29
-into menu was added dish with id = 30
-into menu was added dish with id = 31
-into menu was added dish with id = 32
-into menu was added dish with id = 33
-into menu was added dish with id = 34
+Starting to insert into soup
+Inserted into soup: Tomato Soup
+Inserted into soup: Chicken Soup
+Inserted into soup: Mushroom Soup
+Starting to insert into beverage
+Inserted into beverage: Coca-Cola
+Inserted into beverage: Green Tea
+Inserted into beverage: Espresso
+Inserted into beverage: Orange Juice
+Inserted into beverage: Mineral Water
+Starting to insert into snack
+Inserted into snack: Chips
+Inserted into snack: Nuts Mix
+Inserted into snack: Cheese Sticks
+Inserted into snack: Bruschetta
+Starting to insert into main_dish
+Inserted into main_dish: Veggie Pizza
+Inserted into main_dish: Burger
+Inserted into main_dish: Chicken Parmesan
+Inserted into main_dish: Seafood Paella
+Inserted into main_dish: Vegetable Stir Fry
+Inserted into main_dish: Duck Confit
+Inserted into main_dish: Lamb Curry
+Inserted into main_dish: Mushroom Risotto
+Inserted into main_dish: Pulled Pork Sandwich
+Inserted into main_dish: Salmon Tartare
+Inserted into main_dish: Eggplant Parmigiana
+Inserted into main_dish: Beef Tacos
+Starting to insert into garnish
+Error while inserting dishes: not all arguments converted during string formatting
+Starting to insert into soup
+Inserted into soup: Tomato Soup
+Inserted into soup: Chicken Soup
+Inserted into soup: Mushroom Soup
+Starting to insert into beverage
+Inserted into beverage: Coca-Cola
+Inserted into beverage: Green Tea
+Inserted into beverage: Espresso
+Inserted into beverage: Orange Juice
+Inserted into beverage: Mineral Water
+Starting to insert into snack
+Inserted into snack: Chips
+Inserted into snack: Nuts Mix
+Inserted into snack: Cheese Sticks
+Inserted into snack: Bruschetta
+Starting to insert into main_dish
+Inserted into main_dish: Veggie Pizza
+Inserted into main_dish: Burger
+Inserted into main_dish: Chicken Parmesan
+Inserted into main_dish: Seafood Paella
+Inserted into main_dish: Vegetable Stir Fry
+Inserted into main_dish: Duck Confit
+Inserted into main_dish: Lamb Curry
+Inserted into main_dish: Mushroom Risotto
+Inserted into main_dish: Pulled Pork Sandwich
+Inserted into main_dish: Salmon Tartare
+Inserted into main_dish: Eggplant Parmigiana
+Inserted into main_dish: Beef Tacos
+Starting to insert into garnish
+Inserted into garnish: Mashed Potatoes
+Inserted into garnish: Rice Pilaf
+Inserted into garnish: Grilled Vegetables
+Inserted into garnish: French Fries
+Inserted into garnish: Caesar Salad
+Starting to insert into steak
+Inserted into steak: T-Bone Steak
+Inserted into steak: Filet Mignon
+Inserted into steak: New York Strip
+Inserted into steak: Porterhouse
+Inserted into steak: Ribeye
+All dishes have been inserted successfully.
+Error with database operations: ОШИБКА:  отношение "dishe" не существует
+LINE 1: SELECT id FROM dishe;
+                       ^
+ 
+Starting to insert into soup
+Inserted into soup: Tomato Soup
+Inserted into soup: Chicken Soup
+Inserted into soup: Mushroom Soup
+Starting to insert into beverage
+Inserted into beverage: Coca-Cola
+Inserted into beverage: Green Tea
+Inserted into beverage: Espresso
+Inserted into beverage: Orange Juice
+Inserted into beverage: Mineral Water
+Starting to insert into snack
+Inserted into snack: Chips
+Inserted into snack: Nuts Mix
+Inserted into snack: Cheese Sticks
+Inserted into snack: Bruschetta
+Starting to insert into main_dish
+Inserted into main_dish: Veggie Pizza
+Inserted into main_dish: Burger
+Inserted into main_dish: Chicken Parmesan
+Inserted into main_dish: Seafood Paella
+Inserted into main_dish: Vegetable Stir Fry
+Inserted into main_dish: Duck Confit
+Inserted into main_dish: Lamb Curry
+Inserted into main_dish: Mushroom Risotto
+Inserted into main_dish: Pulled Pork Sandwich
+Inserted into main_dish: Salmon Tartare
+Inserted into main_dish: Eggplant Parmigiana
+Inserted into main_dish: Beef Tacos
+Starting to insert into garnish
+Inserted into garnish: Mashed Potatoes
+Inserted into garnish: Rice Pilaf
+Inserted into garnish: Grilled Vegetables
+Inserted into garnish: French Fries
+Inserted into garnish: Caesar Salad
+Starting to insert into steak
+Inserted into steak: T-Bone Steak
+Inserted into steak: Filet Mignon
+Inserted into steak: New York Strip
+Inserted into steak: Porterhouse
+Inserted into steak: Ribeye
+All dishes have been inserted successfully.
+into menu was added dish with id = (78,)
+into menu was added dish with id = (79,)
+into menu was added dish with id = (80,)
+into menu was added dish with id = (81,)
+into menu was added dish with id = (82,)
+into menu was added dish with id = (83,)
+into menu was added dish with id = (84,)
+into menu was added dish with id = (85,)
+into menu was added dish with id = (86,)
+into menu was added dish with id = (87,)
+into menu was added dish with id = (88,)
+into menu was added dish with id = (89,)
+into menu was added dish with id = (90,)
+into menu was added dish with id = (91,)
+into menu was added dish with id = (92,)
+into menu was added dish with id = (93,)
+into menu was added dish with id = (94,)
+into menu was added dish with id = (95,)
+into menu was added dish with id = (96,)
+into menu was added dish with id = (97,)
+into menu was added dish with id = (98,)
+into menu was added dish with id = (99,)
+into menu was added dish with id = (100,)
+into menu was added dish with id = (101,)
+into menu was added dish with id = (102,)
+into menu was added dish with id = (103,)
+into menu was added dish with id = (104,)
+into menu was added dish with id = (105,)
+into menu was added dish with id = (106,)
+into menu was added dish with id = (107,)
+into menu was added dish with id = (108,)
+into menu was added dish with id = (109,)
+into menu was added dish with id = (110,)
+into menu was added dish with id = (111,)
+into menu was added dish with id = (112,)
+into menu was added dish with id = (113,)
+into menu was added dish with id = (114,)
+into menu was added dish with id = (115,)
+into menu was added dish with id = (116,)
+into menu was added dish with id = (117,)
+into menu was added dish with id = (118,)
+into menu was added dish with id = (119,)
+into menu was added dish with id = (120,)
+into menu was added dish with id = (121,)
+into menu was added dish with id = (122,)
+into menu was added dish with id = (123,)
+into menu was added dish with id = (124,)
+into menu was added dish with id = (125,)
+into menu was added dish with id = (126,)
+into menu was added dish with id = (127,)
+into menu was added dish with id = (128,)
+into menu was added dish with id = (129,)
+into menu was added dish with id = (130,)
+into menu was added dish with id = (131,)
+into menu was added dish with id = (132,)
+into menu was added dish with id = (133,)
+into menu was added dish with id = (134,)
+into menu was added dish with id = (135,)
+into menu was added dish with id = (136,)
+into menu was added dish with id = (137,)
+into menu was added dish with id = (138,)
+into menu was added dish with id = (139,)
+into menu was added dish with id = (140,)
+into menu was added dish with id = (141,)
+into menu was added dish with id = (142,)
+into menu was added dish with id = (143,)
+into menu was added dish with id = (144,)
+into menu was added dish with id = (145,)
+Starting to insert into soup
+Inserted into soup: Tomato Soup
+Inserted into soup: Chicken Soup
+Inserted into soup: Mushroom Soup
+Starting to insert into beverage
+Inserted into beverage: Coca-Cola
+Inserted into beverage: Green Tea
+Inserted into beverage: Espresso
+Inserted into beverage: Orange Juice
+Inserted into beverage: Mineral Water
+Starting to insert into snack
+Inserted into snack: Chips
+Inserted into snack: Nuts Mix
+Inserted into snack: Cheese Sticks
+Inserted into snack: Bruschetta
+Starting to insert into main_dish
+Inserted into main_dish: Veggie Pizza
+Inserted into main_dish: Burger
+Inserted into main_dish: Chicken Parmesan
+Inserted into main_dish: Seafood Paella
+Inserted into main_dish: Vegetable Stir Fry
+Inserted into main_dish: Duck Confit
+Inserted into main_dish: Lamb Curry
+Inserted into main_dish: Mushroom Risotto
+Inserted into main_dish: Pulled Pork Sandwich
+Inserted into main_dish: Salmon Tartare
+Inserted into main_dish: Eggplant Parmigiana
+Inserted into main_dish: Beef Tacos
+Starting to insert into garnish
+Inserted into garnish: Mashed Potatoes
+Inserted into garnish: Rice Pilaf
+Inserted into garnish: Grilled Vegetables
+Inserted into garnish: French Fries
+Inserted into garnish: Caesar Salad
+Starting to insert into steak
+Inserted into steak: T-Bone Steak
+Inserted into steak: Filet Mignon
+Inserted into steak: New York Strip
+Inserted into steak: Porterhouse
+Inserted into steak: Ribeye
+All dishes have been inserted successfully.
+Error with database operations: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "menu_pkey"
+DETAIL:  Ключ "(dish_id)=(78)" уже существует.
+ 
+Starting to insert into soup
+Inserted into soup: Tomato Soup
+Inserted into soup: Chicken Soup
+Inserted into soup: Mushroom Soup
+Starting to insert into beverage
+Inserted into beverage: Coca-Cola
+Inserted into beverage: Green Tea
+Inserted into beverage: Espresso
+Inserted into beverage: Orange Juice
+Inserted into beverage: Mineral Water
+Starting to insert into snack
+Inserted into snack: Chips
+Inserted into snack: Nuts Mix
+Inserted into snack: Cheese Sticks
+Inserted into snack: Bruschetta
+Starting to insert into main_dish
+Inserted into main_dish: Veggie Pizza
+Inserted into main_dish: Burger
+Inserted into main_dish: Chicken Parmesan
+Inserted into main_dish: Seafood Paella
+Inserted into main_dish: Vegetable Stir Fry
+Inserted into main_dish: Duck Confit
+Inserted into main_dish: Lamb Curry
+Inserted into main_dish: Mushroom Risotto
+Inserted into main_dish: Pulled Pork Sandwich
+Inserted into main_dish: Salmon Tartare
+Inserted into main_dish: Eggplant Parmigiana
+Inserted into main_dish: Beef Tacos
+Starting to insert into garnish
+Inserted into garnish: Mashed Potatoes
+Inserted into garnish: Rice Pilaf
+Inserted into garnish: Grilled Vegetables
+Inserted into garnish: French Fries
+Inserted into garnish: Caesar Salad
+Starting to insert into steak
+Inserted into steak: T-Bone Steak
+Inserted into steak: Filet Mignon
+Inserted into steak: New York Strip
+Inserted into steak: Porterhouse
+Inserted into steak: Ribeye
+All dishes have been inserted successfully.
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Tomato Soup already in menu
+Chicken Soup already in menu
+Mushroom Soup already in menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Coca-Cola already in menu
+Green Tea already in menu
+Espresso already in menu
+Orange Juice already in menu
+Mineral Water already in menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Chips already in menu
+Nuts Mix already in menu
+Cheese Sticks already in menu
+Bruschetta already in menu
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Tomato Soup already in menu
+Chicken Soup already in menu
+Mushroom Soup already in menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Coca-Cola already in menu
+Green Tea already in menu
+Espresso already in menu
+Orange Juice already in menu
+Mineral Water already in menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Chips already in menu
+Nuts Mix already in menu
+Cheese Sticks already in menu
+Bruschetta already in menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+Mashed Potatoes already in menu
+Rice Pilaf already in menu
+Grilled Vegetables already in menu
+French Fries already in menu
+Caesar Salad already in menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
+T-Bone Steak already in menu
+Filet Mignon already in menu
+New York Strip already in menu
+Porterhouse already in menu
+Ribeye already in menu
+order 0 was created
+Database created successfully.
+Tables created successfully.Starting to insert into soup
+Inserted into soup: Tomato Soup
+Inserted into soup: Chicken Soup
+Inserted into soup: Mushroom Soup
+Starting to insert into beverage
+Inserted into beverage: Coca-Cola
+Inserted into beverage: Green Tea
+Inserted into beverage: Espresso
+Inserted into beverage: Orange Juice
+Inserted into beverage: Mineral Water
+Starting to insert into snack
+Inserted into snack: Chips
+Inserted into snack: Nuts Mix
+Inserted into snack: Cheese Sticks
+Inserted into snack: Bruschetta
+Starting to insert into main_dish
+Inserted into main_dish: Veggie Pizza
+Inserted into main_dish: Burger
+Inserted into main_dish: Chicken Parmesan
+Inserted into main_dish: Seafood Paella
+Inserted into main_dish: Vegetable Stir Fry
+Inserted into main_dish: Duck Confit
+Inserted into main_dish: Lamb Curry
+Inserted into main_dish: Mushroom Risotto
+Inserted into main_dish: Pulled Pork Sandwich
+Inserted into main_dish: Salmon Tartare
+Inserted into main_dish: Eggplant Parmigiana
+Inserted into main_dish: Beef Tacos
+Starting to insert into garnish
+Inserted into garnish: Mashed Potatoes
+Inserted into garnish: Rice Pilaf
+Inserted into garnish: Grilled Vegetables
+Inserted into garnish: French Fries
+Inserted into garnish: Caesar Salad
+Starting to insert into steak
+Inserted into steak: T-Bone Steak
+Inserted into steak: Filet Mignon
+Inserted into steak: New York Strip
+Inserted into steak: Porterhouse
+Inserted into steak: Ribeye
+All dishes have been inserted successfully.
 into menu was added dish with id = (1,)
 into menu was added dish with id = (2,)
 into menu was added dish with id = (3,)
@@ -225,183 +687,228 @@ into menu was added dish with id = (34,)
 Tomato Soup was added into menu
 Chicken Soup was added into menu
 Mushroom Soup was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
+order 0 was created
+Error with database operations: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "menu_pkey"
+DETAIL:  Ключ "(dish_id)=(1)" уже существует.
+ 
+Tomato Soup was added into menu
+Chicken Soup was added into menu
+Mushroom Soup was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
 order 0 was created
 Tomato Soup was added into menu
 Chicken Soup was added into menu
 Mushroom Soup was added into menu
-starting drawing menu...
-ending drawing menu
-Tomato Soup was added into menu
-Chicken Soup was added into menu
-Mushroom Soup was added into menu
-starting drawing menu...
-ending drawing menu
-Tomato Soup was added into menu
-Chicken Soup was added into menu
-Mushroom Soup was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
 order 0 was created
 Tomato Soup was added into menu
 Chicken Soup was added into menu
 Mushroom Soup was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
 order 0 was created
-into order 0 was added Tomato Soup. Order summ is 200.00
-into order 0 was added Chicken Soup. Order summ is 350.00
-into order 0 was added Mushroom Soup. Order summ is 550.00
-into order 0 was added Mushroom Soup. Order summ is 750.00
-In order 0 now 1 Mushroom Soup, new order summ is 550.00
-All Mushroom Soup from order 0 was removed! New order summ is 350.00
-All Chicken Soup from order 0 was removed! New order summ is 200.00
-All Tomato Soup from order 0 was removed! New order summ is 0.00
-into order 0 was added Tomato Soup. Order summ is 200.00
-into order 0 was added Chicken Soup. Order summ is 350.00
-into order 0 was added Mushroom Soup. Order summ is 550.00
-into order 0 was added Mushroom Soup. Order summ is 750.00
-into order 0 was added Chicken Soup. Order summ is 900.00
-into order 0 was added Tomato Soup. Order summ is 1100.00
-into order 0 was added Tomato Soup. Order summ is 1300.00
-In order 0 now 1 Mushroom Soup, new order summ is 1100.00
-All Mushroom Soup from order 0 was removed! New order summ is 900.00
-In order 0 now 1 Chicken Soup, new order summ is 750.00
-All Chicken Soup from order 0 was removed! New order summ is 600.00
-In order 0 now 2 Tomato Soup, new order summ is 400.00
-In order 0 now 1 Tomato Soup, new order summ is 200.00
-All Tomato Soup from order 0 was removed! New order summ is 0.00
+into order 0 was added Eggplant Parmigiana. Order summ is 300.00
+into order 0 was added Lamb Curry. Order summ is 600.00
+into order 0 was added Burger. Order summ is 950.00
+into order 0 was added Seafood Paella. Order summ is 1500.00
+into order 0 was added Seafood Paella. Order summ is 2050.00
+into order 0 was added Chips. Order summ is 2150.00
+into order 0 was added Cheese Sticks. Order summ is 2300.00
+into order 0 was added Tomato Soup. Order summ is 2500.00
+into order 0 was added Porterhouse. Order summ is 3100.00
+into order 0 was added T-Bone Steak. Order summ is 3600.00
+into order 0 was added Filet Mignon. Order summ is 4100.00
+In order 0 now 1 Seafood Paella, new order summ is 3550.00
+All Seafood Paella from order 0 was removed! New order summ is 3000.00
+All T-Bone Steak from order 0 was removed! New order summ is 2500.00
+All Eggplant Parmigiana from order 0 was removed! New order summ is 2200.00
+All Burger from order 0 was removed! New order summ is 1850.00
+All Cheese Sticks from order 0 was removed! New order summ is 1700.00
+All Tomato Soup from order 0 was removed! New order summ is 1500.00
 Tomato Soup was added into menu
 Chicken Soup was added into menu
 Mushroom Soup was added into menu
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
 order 0 was created
 Tomato Soup was added into menu
 Chicken Soup was added into menu
 Mushroom Soup was added into menu
-order 0 was created
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
 Tomato Soup was added into menu
 Chicken Soup was added into menu
 Mushroom Soup was added into menu
-order 0 was created
-Tomato Soup was added into menu
-Chicken Soup was added into menu
-Mushroom Soup was added into menu
-order 0 was created
-Tomato Soup was added into menu
-Chicken Soup was added into menu
-Mushroom Soup was added into menu
-Tomato Soup was added into menu
-Chicken Soup was added into menu
-Mushroom Soup was added into menu
-order 0 was created
-Tomato Soup was added into menu
-Chicken Soup was added into menu
-Mushroom Soup was added into menu
-order 0 was created
-
-STARTING BIG TEST BEFORE COMMITDatabase created successfully
-Tables created successfully
-Starting inserts into soup
-table = soup, concrete_details = ('Tomato Soup', 'Rich and creamy tomato soup', 200, 300)
-Inserted into soup: Tomato Soup 
-table = soup, concrete_details = ('Chicken Soup', 'Classic chicken soup with noodles', 150, 250)
-Inserted into soup: Chicken Soup 
-table = soup, concrete_details = ('Mushroom Soup', 'Creamy mushroom soup with herbs', 200, 350)
-Inserted into soup: Mushroom Soup 
-Starting inserts into beverages
-table = beverages, concrete_details = ('Coca-Cola', 'Classic Coca-Cola.', 200, 330)
-Inserted into beverages: Coca-Cola 
-table = beverages, concrete_details = ('Green Tea', 'Refreshing green tea.', 70, 200)
-Inserted into beverages: Green Tea 
-table = beverages, concrete_details = ('Espresso', 'Strong espresso coffee.', 120, 50)
-Inserted into beverages: Espresso 
-table = beverages, concrete_details = ('Orange Juice', 'Fresh orange juice.', 100, 250)
-Inserted into beverages: Orange Juice 
-table = beverages, concrete_details = ('Mineral Water', 'Sparkling mineral water.', 80, 500)
-Inserted into beverages: Mineral Water 
-Starting inserts into snacks
-table = snacks, concrete_details = ('Chips', 'Salty potato chips.', 100, 100)
-Inserted into snacks: Chips 
-table = snacks, concrete_details = ('Nuts Mix', 'Mixed nuts.', 200, 150)
-Inserted into snacks: Nuts Mix 
-table = snacks, concrete_details = ('Cheese Sticks', 'Crispy cheese sticks.', 150, 120)
-Inserted into snacks: Cheese Sticks 
-table = snacks, concrete_details = ('Bruschetta', 'Tomato and basil bruschetta.', 200, 200)
-Inserted into snacks: Bruschetta 
-Starting inserts into main_dishes
-table = main_dishes, concrete_details = ('Veggie Pizza', 'Vegetarian pizza with mozzarella.', 450, 450)
-Inserted into main_dishes: Veggie Pizza 
-table = main_dishes, concrete_details = ('Burger', 'Beef burger with fries.', 350, 350)
-Inserted into main_dishes: Burger 
-table = main_dishes, concrete_details = ('Chicken Parmesan', 'Breaded chicken breast topped with marinara sauce and mozzarella cheese.', 500, 300)
-Inserted into main_dishes: Chicken Parmesan 
-table = main_dishes, concrete_details = ('Seafood Paella', 'Traditional Spanish rice dish with shrimp, mussels, and clams.', 550, 350)
-Inserted into main_dishes: Seafood Paella 
-table = main_dishes, concrete_details = ('Vegetable Stir Fry', 'Mixed vegetables stir-fried with soy sauce and sesame seeds.', 400, 250)
-Inserted into main_dishes: Vegetable Stir Fry 
-table = main_dishes, concrete_details = ('Duck Confit', 'Slow-cooked duck leg with crispy skin.', 350, 280)
-Inserted into main_dishes: Duck Confit 
-table = main_dishes, concrete_details = ('Lamb Curry', 'Spicy lamb curry with potatoes and peas.', 300, 320)
-Inserted into main_dishes: Lamb Curry 
-table = main_dishes, concrete_details = ('Mushroom Risotto', 'Creamy risotto with wild mushrooms and Parmesan cheese.', 400, 300)
-Inserted into main_dishes: Mushroom Risotto 
-table = main_dishes, concrete_details = ('Pulled Pork Sandwich', 'Slow-cooked pulled pork with BBQ sauce on a brioche bun.', 300, 200)
-Inserted into main_dishes: Pulled Pork Sandwich 
-table = main_dishes, concrete_details = ('Salmon Tartare', 'Fresh salmon tartare with avocado and lime.', 300, 220)
-Inserted into main_dishes: Salmon Tartare 
-table = main_dishes, concrete_details = ('Eggplant Parmigiana', 'Layers of eggplant with tomato sauce, mozzarella, and Parmesan cheese.', 300, 260)
-Inserted into main_dishes: Eggplant Parmigiana 
-table = main_dishes, concrete_details = ('Beef Tacos', 'Three tacos with marinated beef, salsa, and cheese.', 250, 180)
-Inserted into main_dishes: Beef Tacos 
-Starting inserts into garniers
-table = garniers, concrete_details = ('Mashed Potatoes', 'Creamy mashed potatoes.', 150, 200, 'Butter')
-Inserted into garniers: Mashed Potatoes 
-table = garniers, concrete_details = ('Rice Pilaf', 'Rice pilaf with carrots.', 150, 250, 'Curry')
-Inserted into garniers: Rice Pilaf 
-table = garniers, concrete_details = ('Grilled Vegetables', 'Assorted grilled vegetables.', 200, 300, 'Herb')
-Inserted into garniers: Grilled Vegetables 
-table = garniers, concrete_details = ('French Fries', 'Crispy french fries.', 150, 150, 'Ketchup')
-Inserted into garniers: French Fries 
-table = garniers, concrete_details = ('Caesar Salad', 'Caesar salad with croutons.', 200, 180, 'Caesar')
-Inserted into garniers: Caesar Salad 
-Starting inserts into steakes
-table = steakes, concrete_details = ('T-Bone Steak', 'Grilled T-bone steak.', 500, 350, 'Medium')
-Inserted into steakes: T-Bone Steak 
-table = steakes, concrete_details = ('Filet Mignon', 'Tender filet mignon.', 500, 200, 'Rare')
-Inserted into steakes: Filet Mignon 
-table = steakes, concrete_details = ('New York Strip', 'Juicy New York strip steak.', 500, 300, 'Well-done')
-Inserted into steakes: New York Strip 
-table = steakes, concrete_details = ('Porterhouse', 'Large porterhouse steak.', 600, 400, 'Medium rare')
-Inserted into steakes: Porterhouse 
-table = steakes, concrete_details = ('Ribeye', 'Boneless ribeye steak.', 600, 350, 'Medium well')
-Inserted into steakes: Ribeye 
-All data inserted successfully 
-into menu was added dish with id = (1,)
-into menu was added dish with id = (2,)
-into menu was added dish with id = (3,)
-into menu was added dish with id = (4,)
-into menu was added dish with id = (5,)
-into menu was added dish with id = (6,)
-into menu was added dish with id = (7,)
-into menu was added dish with id = (8,)
-into menu was added dish with id = (9,)
-into menu was added dish with id = (10,)
-into menu was added dish with id = (11,)
-into menu was added dish with id = (12,)
-into menu was added dish with id = (13,)
-into menu was added dish with id = (14,)
-into menu was added dish with id = (15,)
-into menu was added dish with id = (16,)
-into menu was added dish with id = (17,)
-into menu was added dish with id = (18,)
-into menu was added dish with id = (19,)
-into menu was added dish with id = (20,)
-into menu was added dish with id = (21,)
-into menu was added dish with id = (22,)
-into menu was added dish with id = (23,)
-into menu was added dish with id = (24,)
-into menu was added dish with id = (25,)
-into menu was added dish with id = (26,)
-into menu was added dish with id = (27,)
-into menu was added dish with id = (28,)
-into menu was added dish with id = (29,)
-into menu was added dish with id = (30,)
-into menu was added dish with id = (31,)
-into menu was added dish with id = (32,)
-into menu was added dish with id = (33,)
-into menu was added dish with id = (34,)
+Coca-Cola was added into menu
+Green Tea was added into menu
+Espresso was added into menu
+Orange Juice was added into menu
+Mineral Water was added into menu
+Chips was added into menu
+Nuts Mix was added into menu
+Cheese Sticks was added into menu
+Bruschetta was added into menu
+Veggie Pizza was added into menu
+Burger was added into menu
+Chicken Parmesan was added into menu
+Seafood Paella was added into menu
+Vegetable Stir Fry was added into menu
+Duck Confit was added into menu
+Lamb Curry was added into menu
+Mushroom Risotto was added into menu
+Pulled Pork Sandwich was added into menu
+Salmon Tartare was added into menu
+Eggplant Parmigiana was added into menu
+Beef Tacos was added into menu
+Mashed Potatoes was added into menu
+Rice Pilaf was added into menu
+Grilled Vegetables was added into menu
+French Fries was added into menu
+Caesar Salad was added into menu
+T-Bone Steak was added into menu
+Filet Mignon was added into menu
+New York Strip was added into menu
+Porterhouse was added into menu
+Ribeye was added into menu
