@@ -8,10 +8,10 @@ from db.db_setup import create_db_and_initialize_tables
 from db.fill_dishes import fill_tables
 from db.fill_menu import fill_menu_table
 
-dbparams = {'dbname':"restaurant", 'user':"postgres", 'password':"test123", 'host':"localhost"}
+dbparams = {'dbname':"restaurant", 'user':"postgres", 'password':"password", 'host':"localhost"}
+# Измените значения user и password на ваши.
+# Функция create_db_and_initialize_tables будет использовать их для подключения к базе postgres и создаст базу данных restaurant.
 
-
-    
 
 
 if __name__ == '__main__':
@@ -19,15 +19,13 @@ if __name__ == '__main__':
 
 
     # create_db_and_initialize_tables(dbparams)     # инициализация базы данных и заполнение таблиц
-    # fill_tables(dbparams)                         # используется при первом запуске
-    # fill_menu_table(dbparams)                     # приложения
+    # fill_tables(dbparams)                         # используется при первом запуске приложения
+    # fill_menu_table(dbparams)                     # 
 
-    menu = Menu()
+    menu = Menu()   
 
-    upload_menu(dbparams)
+    upload_menu(dbparams)   # загрузка меню
 
-    
-    # print(Menu().items().keys())
     app = QApplication(sys.argv) 
 
     ex = MenuApp(Menu().items())  # Создаем экземпляр окна приложения, передавая список блюд
